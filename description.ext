@@ -11,8 +11,8 @@ class CfgFunctions
 			file = "fnc";
 			class pyUtils;
 			class configToString;
-			class collectCtrls;
-			class ctsInConfigFile;
+			/* class collectCtrls;
+			class ctsInConfigFile; */
 		};
 		class Python
 		{

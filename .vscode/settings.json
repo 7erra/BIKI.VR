@@ -1,0 +1,25 @@
+{
+	"psi-header.templates": [
+		{
+			"language": "sqf",
+			"template": [
+				"Author: <<author>>",
+				"",
+				"Description:",
+				"\t__DESCRIPTION___",
+				"",
+				"Parameter(s):",
+				"\t0:\t__TYPE__ - __EXPLANATION__",
+				"\tOptional:",
+				"\tN:\t__TYPE___ - __EXPLANATION__",
+				"\t\tDefault: __DEFAULT___",
+				"",
+				"Returns:",
+				"\t__TYPE__ - __EXPLANATION___",
+				"",
+				"Example(s):",
+				"\t__PARAMETER__ __EXECUTIONMETHOD__ __FUNCTION___; //-> __RETURN__"
+			]
+		}
+	]
+}

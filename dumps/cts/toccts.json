@@ -1,0 +1,153 @@
+{
+    "0": {
+        "file": "0_CT.json",
+        "macro": "CT_STATIC",
+        "value": 0,
+        "locked": true
+    },
+    "1": {
+        "file": "1_CT.json",
+        "macro": "CT_BUTTON",
+        "value": 1
+    },
+    "2": {
+        "file": "2_CT.json",
+        "macro": "CT_EDIT",
+        "value": 2
+    },
+    "3": {
+        "file": "3_CT.json",
+        "macro": "CT_SLIDER",
+        "value": 3
+    },
+    "4": {
+        "file": "4_CT.json",
+        "macro": "CT_COMBO",
+        "value": 4
+    },
+    "5": {
+        "file": "5_CT.json",
+        "macro": "CT_LISTBOX",
+        "value": 5
+    },
+    "6": {
+        "file": "6_CT.json",
+        "macro": "CT_TOOLBOX",
+        "value": 6
+    },
+    "7": {
+        "file": "7_CT.json",
+        "macro": "CT_CHECKBOXES",
+        "value": 7
+    },
+    "8": {
+        "file": "8_CT.json",
+        "macro": "CT_PROGRESS",
+        "value": 8
+    },
+    "9": {
+        "file": "9_CT.json",
+        "macro": "CT_HTML",
+        "value": 9
+    },
+    "11": {
+        "file": "11_CT.json",
+        "macro": "CT_ACTIVETEXT",
+        "value": 11
+    },
+    "12": {
+        "file": "12_CT.json",
+        "macro": "CT_TREE",
+        "value": 12
+    },
+    "13": {
+        "file": "13_CT.json",
+        "macro": "CT_STRUCTURED_TEXT",
+        "value": 13
+    },
+    "15": {
+        "file": "15_CT.json",
+        "macro": "CT_CONTROLS_GROUP",
+        "value": 15
+    },
+    "16": {
+        "file": "16_CT.json",
+        "macro": "CT_SHORTCUTBUTTON",
+        "value": 16
+    },
+    "19": {
+        "file": "19_CT.json",
+        "macro": "CT_CONTROLS_TABLE",
+        "value": 19
+    },
+    "41": {
+        "file": "41_CT.json",
+        "macro": "CT_XBUTTON",
+        "value": 41
+    },
+    "42": {
+        "file": "42_CT.json",
+        "macro": "CT_XLISTBOX",
+        "value": 42
+    },
+    "43": {
+        "file": "43_CT.json",
+        "macro": "CT_XSLIDER",
+        "value": 43
+    },
+    "44": {
+        "file": "44_CT.json",
+        "macro": "CT_XCOMBO",
+        "value": 44
+    },
+    "45": {
+        "file": "45_CT.json",
+        "macro": "CT_ANIMATED_TEXTURE",
+        "value": 45
+    },
+    "47": {
+        "file": "47_CT.json",
+        "macro": "CT_MENU_STRIP",
+        "value": 47
+    },
+    "77": {
+        "file": "77_CT.json",
+        "macro": "CT_CHECKBOX",
+        "value": 77
+    },
+    "80": {
+        "file": "80_CT.json",
+        "macro": "CT_OBJECT",
+        "value": 80
+    },
+    "81": {
+        "file": "81_CT.json",
+        "macro": "CT_OBJECT_ZOOM",
+        "value": 81
+    },
+    "82": {
+        "file": "82_CT.json",
+        "macro": "CT_OBJECT_CONTAINER",
+        "value": 82
+    },
+    "98": {
+        "file": "98_CT.json",
+        "macro": "CT_LINEBREAK",
+        "value": 98
+    },
+    "99": {
+        "file": "99_CT.json",
+        "macro": "CT_USER",
+        "value": 99
+    },
+    "101": {
+        "file": "101_CT.json",
+        "macro": "CT_MAP_MAIN",
+        "value": 101
+    },
+    "102": {
+        "file": "102_CT.json",
+        "macro": "CT_LISTNBOX",
+        "value": 102
+    }
+}

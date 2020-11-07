@@ -1,0 +1,225 @@
+{
+    "colorStripBackground": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "Items": {
+        "values": [
+            "Items"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "colorStripText": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorStripSelect": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorStripSelectBackground": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorStripDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBorder": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectBackground": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPicture": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureSelect": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "arrow": {
+        "values": [
+            "\\a3\\3DEN\\Data\\Controls\\ctrlMenu\\arrow_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "rowHeight": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "itemSpacingW": {
+        "values": [
+            0.01
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "itemSpacingH": {
+        "values": [
+            0.01
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "pictureCheckboxEnabled": {
+        "values": [
+            "\\a3\\3DEN\\Data\\Controls\\CtrlMenu\\pictureCheckboxEnabled_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "pictureCheckboxDisabled": {
+        "values": [
+            "#(argb,8,8,3)color(0,0,0,0)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "pictureRadioEnabled": {
+        "values": [
+            "\\a3\\3DEN\\Data\\Controls\\CtrlMenu\\pictureRadioEnabled_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "pictureRadioDisabled": {
+        "values": [
+            "#(argb,8,8,3)color(0,0,0,0)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "shadow": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

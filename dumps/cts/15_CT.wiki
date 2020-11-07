@@ -1,0 +1,165 @@
+<syntaxhighlight lang="cpp">#define CT_CONTROLS_GROUP 15</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== adminOnly ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+adminOnly = 1;
+</syntaxhighlight>
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorBackgroundSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackgroundSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorFocused ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFocused[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== D ===
+==== disableCustomColors ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disableCustomColors = 1;
+</syntaxhighlight>
+=== E ===
+==== enableDisplay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+enableDisplay = 0;
+</syntaxhighlight>
+=== G ===
+==== gunH ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+gunH = 0.15;
+</syntaxhighlight>
+==== gunW ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+gunW = 0.113;
+</syntaxhighlight>
+=== H ===
+==== highlightAnimLength ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+highlightAnimLength = 1.2;
+</syntaxhighlight>
+==== highlightColorFrom ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+highlightColorFrom[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== highlightColorTo ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+highlightColorTo[] = {1, 1, 1, 0.5};
+</syntaxhighlight>
+==== HScrollbar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== L ===
+==== lineHeight ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+lineHeight = "1.2 * 					(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+</syntaxhighlight>
+=== M ===
+==== magH ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+magH = 0.074;
+</syntaxhighlight>
+==== magW ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+magW = 0.055;
+</syntaxhighlight>
+=== S ===
+==== scriptName ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scriptName = "RscHorizontalCompass";
+</syntaxhighlight>
+==== scriptPath ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scriptPath = "EnochCommon";
+</syntaxhighlight>
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== soundClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundClick[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== soundDoubleClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundDoubleClick[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== soundPush ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundPush[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== spacing ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+spacing = 0.002;
+</syntaxhighlight>
+=== V ===
+==== VScrollbar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== W ===
+==== weaponH ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+weaponH = 0.15;
+</syntaxhighlight>
+==== weaponW ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+weaponW = 0.226;
+</syntaxhighlight>
+{{Cfg ref|end}}

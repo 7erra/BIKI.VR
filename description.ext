@@ -1,0 +1,58 @@
+allowFunctionsRecompile = 1;
+allowFunctionsLog = 1;
+#include "ui\BaseCtrls.hpp"
+
+class CfgFunctions
+{
+	class BIKI
+	{
+		class Utils
+		{
+			file = "fnc";
+			class pyUtils;
+			class configToString;
+			class collectCtrls;
+			class ctsInConfigFile;
+		};
+		class Python
+		{
+			file = "py\fnc";
+			class writeFile;
+		};
+	};
+};
+#include "ui\test.hpp"
+class ParentTest
+{
+	p[] = {0,0,0,1};
+};
+class TestCfg: ParentTest
+{
+	x = 0;
+	y = 1;
+	class A
+	{
+		sub = "yes";
+	};
+};
+class TestDisplay2
+{
+	idd = -1;
+	class controls
+	{
+		class TestControl
+		{
+			type = 0;
+			test = "test";
+		};
+		class TestControl2: TestControl
+		{
+			test = 1234;
+			stringValue = "blabla";
+			class SubClass
+			{
+				subtest = 7890;
+			};
+		};
+	};
+};

@@ -1,0 +1,130 @@
+<syntaxhighlight lang="cpp">#define CT_HTML 9</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== colorBold ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBold[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorLink ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorLink[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorLinkActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorLinkActive[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPicture ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPicture[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureBorder[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorPictureLink ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureLink[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== cycleAllLinks ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+cycleAllLinks = 0;
+</syntaxhighlight>
+==== cycleLinks ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+cycleLinks = 0;
+</syntaxhighlight>
+=== F ===
+==== filename ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+filename = "";
+</syntaxhighlight>
+=== H ===
+==== H1 ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== H2 ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== H3 ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== H4 ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== H5 ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== H6 ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== N ===
+==== nextPage ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+nextPage = "\A3\ui_f\data\gui\rsccommon\rschtml\arrow_right_ca.paa";
+</syntaxhighlight>
+=== P ===
+==== prevPage ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+prevPage = "\A3\ui_f\data\gui\rsccommon\rschtml\arrow_left_ca.paa";
+</syntaxhighlight>
+==== P ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+{{Cfg ref|end}}

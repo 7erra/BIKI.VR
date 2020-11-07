@@ -1,0 +1,139 @@
+{
+    "colorActiveBackground": {
+        "values": [
+            [
+                1,
+                0.5,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActiveBackground2": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "size": {
+        "values": [
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive2": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "period": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "soundClick": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundClick",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEnter": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundPush": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundPush",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEscape": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    }
+}

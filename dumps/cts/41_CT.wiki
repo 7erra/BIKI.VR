@@ -1,0 +1,79 @@
+<syntaxhighlight lang="cpp">#define CT_XBUTTON 41</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorActive2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive2[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorActiveBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActiveBackground[] = {1, 0.5, 0, 1};
+</syntaxhighlight>
+==== colorActiveBackground2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActiveBackground2[] = {0, 0, 0, 1};
+</syntaxhighlight>
+=== P ===
+==== period ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+period = 1;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== size ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+size = "(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+</syntaxhighlight>
+==== soundClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundClick[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundClick', 0.09, 1};
+</syntaxhighlight>
+==== soundEnter ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEnter[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter', 0.09, 1};
+</syntaxhighlight>
+==== soundEscape ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEscape[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape', 0.09, 1};
+</syntaxhighlight>
+==== soundPush ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundPush[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundPush', 0.09, 1};
+</syntaxhighlight>
+{{Cfg ref|end}}

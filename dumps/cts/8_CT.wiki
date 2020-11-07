@@ -1,0 +1,43 @@
+<syntaxhighlight lang="cpp">#define CT_PROGRESS 8</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== colorBar ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBar[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
+</syntaxhighlight>
+==== colorExtBar ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorExtBar[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorFrame ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFrame[] = {0, 0, 0, 0};
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 2;
+</syntaxhighlight>
+=== T ===
+==== texture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+texture = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== textureExt ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textureExt = "";
+</syntaxhighlight>
+{{Cfg ref|end}}

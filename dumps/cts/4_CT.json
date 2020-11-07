@@ -1,0 +1,379 @@
+{
+    "wholeHeight": {
+        "values": [
+            0.24,
+            0.45,
+            0.55,
+            "5 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "12 * \t5 * (pixelH * pixelGrid * \t0.50)",
+            0.22,
+            "15 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "6 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "7 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "4 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)"
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorScrollbar": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPicture": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRight": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTextRight": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectRight": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect2Right": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundSelect": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscCombo\\soundSelect",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundExpand": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscCombo\\soundExpand",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundCollapse": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscCombo\\soundCollapse",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "maxHistoryDelay": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ComboScrollBar": {
+        "values": [
+            "ComboScrollBar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorSelectBackground": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.7
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "arrowEmpty": {
+        "values": [
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\rsccombo\\arrow_combo_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCombo\\arrowEmpty_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\cfg\\scrollbar\\arrowempty_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCombo\\arrowEmptyToolbar_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "arrowFull": {
+        "values": [
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\rsccombo\\arrow_combo_active_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCombo\\arrowFull_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\cfg\\scrollbar\\arrowfull_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCombo\\arrowEmptyToolbar_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "rows": {
+        "values": [
+            3,
+            4,
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "from": {
+        "values": [
+            1982
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "to": {
+        "values": [
+            2050
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ExtendedTooltip": {
+        "values": [
+            "ExtendedTooltip"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Items": {
+        "values": [
+            "Items"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "colorPictureSelect": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "gridType": {
+        "values": [
+            "translation",
+            "rotation",
+            "scaling"
+        ],
+        "types": [
+            "String"
+        ]
+    }
+}

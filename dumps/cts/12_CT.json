@@ -1,0 +1,482 @@
+{
+    "colorSelect": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.7
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectText": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBorder": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSearch": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMarked": {
+        "values": [
+            [
+                0.2,
+                0.3,
+                0.7,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                0.5
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                0.35
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMarkedText": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMarkedSelected": {
+        "values": [
+            [
+                0,
+                0.5,
+                0.5,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.7
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "multiselectEnabled": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorPicture": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureSelected": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRight": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightSelected": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorArrow": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "maxHistoryDelay": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "expandedTexture": {
+        "values": [
+            "A3\\ui_f\\data\\gui\\rsccommon\\rsctree\\expandedTexture_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlTree\\expandedTexture_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "hiddenTexture": {
+        "values": [
+            "A3\\ui_f\\data\\gui\\rsccommon\\rsctree\\hiddenTexture_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlTree\\hiddenTexture_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "rowHeight": {
+        "values": [
+            0.0439091
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorSelectBackground": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorLines": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "borderSize": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "expandOnDoubleclick": {
+        "values": [
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "idcSearch": {
+        "values": [
+            645,
+            1400,
+            12238,
+            283,
+            7425,
+            1042
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "disableKeyboardSearch": {
+        "values": [
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "iconFolder": {
+        "values": [
+            "\\a3\\3DEN\\Data\\Cfg3DEN\\Layer\\icon_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "iconFolderDefault": {
+        "values": [
+            "\\a3\\3DEN\\Data\\Cfg3DEN\\Layer\\iconDefault_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "disableSearchHighlight": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "defaultItem": {
+        "values": [
+            [
+                "BLU_F",
+                "EdSubcat_Personnel",
+                "B_Soldier_F"
+            ],
+            [
+                "OPF_F",
+                "EdSubcat_Personnel",
+                "O_SOldier_F"
+            ],
+            [
+                "IND_F",
+                "EdSubcat_Personnel",
+                "I_Soldier_F"
+            ],
+            [
+                "CIV_F",
+                "EdSubcat_Personnel",
+                "C_Man_1"
+            ],
+            [
+                "Default"
+            ],
+            [
+                "BLU_F",
+                "Infantry",
+                "BUS_InfSquad"
+            ],
+            [
+                "OPF_F",
+                "Infantry",
+                "OIA_InfSquad"
+            ],
+            [
+                "IND_F",
+                "Infantry",
+                "HAF_InfSquad"
+            ],
+            [],
+            [
+                "EmptyDetector"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    }
+}

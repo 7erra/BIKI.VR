@@ -1,0 +1,56 @@
+<syntaxhighlight lang="cpp">#define CT_SLIDER 3</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 0.8};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== sliderPosition ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sliderPosition = 42;
+</syntaxhighlight>
+==== sliderRange ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sliderRange[] = {0, 100};
+</syntaxhighlight>
+==== sliderStep ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sliderStep = 1;
+</syntaxhighlight>
+=== T ===
+==== Title ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== V ===
+==== Value ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+{{Cfg ref|end}}

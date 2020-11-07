@@ -1,0 +1,57 @@
+<syntaxhighlight lang="cpp">#define CT_EDIT 2</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== autocomplete ====
+;Type: [[TokenNameValueTypes|String]], [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+autocomplete = "general";
+</syntaxhighlight>
+=== C ===
+==== canModify ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+canModify = 1;
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {0.23, 0.35, 0.42, 0.9};
+</syntaxhighlight>
+==== colorSelection ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelection[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", 1};
+</syntaxhighlight>
+=== L ===
+==== linespacing ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+linespacing = 1;
+</syntaxhighlight>
+=== M ===
+==== maxChars ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+maxChars = 45;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 2;
+</syntaxhighlight>
+==== size ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+size = 0.2;
+</syntaxhighlight>
+{{Cfg ref|end}}

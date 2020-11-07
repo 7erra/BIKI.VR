@@ -1,0 +1,82 @@
+<syntaxhighlight lang="cpp">#define CT_CONTROLS_TABLE 19</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== F ===
+==== firstIDC ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+firstIDC = 1000;
+</syntaxhighlight>
+=== H ===
+==== headerHeight ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+headerHeight = "(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+</syntaxhighlight>
+==== HeaderTemplate ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== HScrollBar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== L ===
+==== lastIDC ====
+;Type: [[TokenNameValueTypes|String]], [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+lastIDC = "(1000 + 3 * 23)";
+</syntaxhighlight>
+==== lineSpacing ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+lineSpacing = "0.1 * ((((safezoneW / safezoneH) min 1.2)/ 1.2)/ 25)";
+</syntaxhighlight>
+=== R ===
+==== rowHeight ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rowHeight = "(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+</syntaxhighlight>
+==== RowTemplate ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== S ===
+==== selectedRowAnimLength ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectedRowAnimLength = 1.2;
+</syntaxhighlight>
+==== selectedRowColorFrom ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectedRowColorFrom[] = {0.7, 0.85, 1, 0.25};
+</syntaxhighlight>
+==== selectedRowColorTo ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectedRowColorTo[] = {0.7, 0.85, 1, 0.5};
+</syntaxhighlight>
+=== V ===
+==== VScrollBar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+{{Cfg ref|end}}

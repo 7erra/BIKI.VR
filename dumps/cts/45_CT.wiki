@@ -1,0 +1,31 @@
+<syntaxhighlight lang="cpp">#define CT_ANIMATED_TEXTURE 45</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== colorBar ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBar[] = {1, 0, 0, 1};
+</syntaxhighlight>
+==== colorFrame ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFrame[] = {0, 0, 0, 1};
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+=== T ===
+==== texture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+texture = "#(argb,8,8,3)color(0,0,1,1)";
+</syntaxhighlight>
+{{Cfg ref|end}}

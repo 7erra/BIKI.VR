@@ -1,0 +1,218 @@
+<syntaxhighlight lang="cpp">#define CT_BUTTON 1</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== action ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+action = "'IMPORT'call ENH_fnc_3DENRadio_handlePlaylist";
+</syntaxhighlight>
+==== autocomplete ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+autocomplete = 0;
+</syntaxhighlight>
+=== B ===
+==== borderSize ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+borderSize = 0;
+</syntaxhighlight>
+=== C ===
+==== canModify ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+canModify = 1;
+</syntaxhighlight>
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorBackgroundActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackgroundActive[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorBackgroundDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackgroundDisabled[] = {0, 0, 0, 0.5};
+</syntaxhighlight>
+==== colorBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBorder[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorFocused ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFocused[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorFocused2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFocused2[] = {1, 1, 1, 0.1};
+</syntaxhighlight>
+==== colorSelection ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelection[] = {0.47, 0.49, 0.47, 0.93};
+</syntaxhighlight>
+==== colorShadow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorShadow[] = {0, 0, 0, 0};
+</syntaxhighlight>
+=== I ===
+==== idcx ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+idcx = 930;
+</syntaxhighlight>
+=== K ===
+==== KeyHints ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== O ===
+==== offsetPressedX ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+offsetPressedX = 0;
+</syntaxhighlight>
+==== offsetPressedY ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+offsetPressedY = 0;
+</syntaxhighlight>
+==== offsetX ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+offsetX = 0;
+</syntaxhighlight>
+==== offsetY ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+offsetY = 0;
+</syntaxhighlight>
+=== P ===
+==== period ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+period = 1.2;
+</syntaxhighlight>
+==== periodFocus ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+periodFocus = 2;
+</syntaxhighlight>
+==== periodOver ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+periodOver = 0.5;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 2;
+</syntaxhighlight>
+==== shortcuts ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shortcuts[] = {'0x00050000 + 0', 28, 57, 156};
+</syntaxhighlight>
+==== soundClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundClick[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundClick', 0.09, 1};
+</syntaxhighlight>
+==== soundEnter ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEnter[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter', 0.09, 1};
+</syntaxhighlight>
+==== soundEscape ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEscape[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape', 0.09, 1};
+</syntaxhighlight>
+==== soundPush ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundPush[] = {'\\A3\\ui_f\\data\\sound\\RscButton\\soundPush', 0.09, 1};
+</syntaxhighlight>
+=== T ===
+==== textImport ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textImport = "Import";
+</syntaxhighlight>
+==== textLoad ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textLoad = "Open";
+</syntaxhighlight>
+==== textMerge ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textMerge = "Merge";
+</syntaxhighlight>
+==== textSave ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textSave = "Save";
+</syntaxhighlight>
+==== textSearch ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textSearch = "\a3\Ui_f\data\GUI\RscCommon\RscButtonSearch\search_end_ca.paa";
+</syntaxhighlight>
+=== U ===
+==== url ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+url = "";
+</syntaxhighlight>
+{{Cfg ref|end}}

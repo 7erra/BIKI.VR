@@ -1,0 +1,168 @@
+<syntaxhighlight lang="cpp">#define CT_ACTIVETEXT 11</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== action ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+action = "(finddisplay 26) createdisplay 'RscDisplayDebugPublic';";
+</syntaxhighlight>
+==== angle ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+angle = 180;
+</syntaxhighlight>
+=== C ===
+==== canDrag ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+canDrag = 1;
+</syntaxhighlight>
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 0.7};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorBackgroundSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackgroundSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorFocused ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFocused[] = {1, 1, 1, 0};
+</syntaxhighlight>
+==== colorShade ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorShade[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== D ===
+==== DLCTemplate ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== E ===
+==== enabled ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+enabled = 0;
+</syntaxhighlight>
+=== P ===
+==== picture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+picture = "\a3\ui_f\data\gui\rsc\rscdisplaymultiplayersetup\flag_bluefor_empty_ca.paa";
+</syntaxhighlight>
+==== pictureHeight ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+pictureHeight = 1;
+</syntaxhighlight>
+==== pictureWidth ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+pictureWidth = 1;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 2;
+</syntaxhighlight>
+==== shortcuts ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shortcuts[] = {14};
+</syntaxhighlight>
+==== sideDisabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sideDisabled = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayersetup\flag_none_ca.paa";
+</syntaxhighlight>
+==== sideToggle ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sideToggle = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayersetup\flag_bluefor_ca.paa";
+</syntaxhighlight>
+==== size ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+size = "1 * (5 * 0.5 * pixelH * pixelGrid)";
+</syntaxhighlight>
+==== soundClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundClick[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== soundDoubleClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundDoubleClick[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== soundEnter ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEnter[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== soundEscape ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEscape[] = {'', 0.1, 1};
+</syntaxhighlight>
+==== soundPush ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundPush[] = {'', 0.1, 1};
+</syntaxhighlight>
+=== T ===
+==== textHeight ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textHeight = 0.38;
+</syntaxhighlight>
+==== textMuted ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textMuted = "\A3\Ui_f\Data\IGUI\RscIngameUI\RscDisplayChannel\MuteVON_crossed_ca.paa";
+</syntaxhighlight>
+=== U ===
+==== url ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+url = "";
+</syntaxhighlight>
+{{Cfg ref|end}}

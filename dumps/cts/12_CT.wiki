@@ -1,0 +1,193 @@
+<syntaxhighlight lang="cpp">#define CT_TREE 12</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== B ===
+==== borderSize ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+borderSize = 0;
+</syntaxhighlight>
+=== C ===
+==== colorArrow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorArrow[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBorder[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorLines ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorLines[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorMarked ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMarked[] = {0.2, 0.3, 0.7, 1};
+</syntaxhighlight>
+==== colorMarkedSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMarkedSelected[] = {0, 0.5, 0.5, 1};
+</syntaxhighlight>
+==== colorMarkedText ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMarkedText[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorPicture ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPicture[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRight[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureRightDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRightSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightSelected[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorPictureSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelected[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSearch ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSearch[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {1, 1, 1, 0.7};
+</syntaxhighlight>
+==== colorSelectBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBackground[] = {0, 0, 0, 0.5};
+</syntaxhighlight>
+==== colorSelectText ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectText[] = {0, 0, 0, 1};
+</syntaxhighlight>
+=== D ===
+==== defaultItem ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+defaultItem[] = {'BLU_F', 'EdSubcat_Personnel', 'B_Soldier_F'};
+</syntaxhighlight>
+==== disableKeyboardSearch ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disableKeyboardSearch = 1;
+</syntaxhighlight>
+==== disableSearchHighlight ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disableSearchHighlight = 1;
+</syntaxhighlight>
+=== E ===
+==== expandedTexture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+expandedTexture = "A3\ui_f\data\gui\rsccommon\rsctree\expandedTexture_ca.paa";
+</syntaxhighlight>
+==== expandOnDoubleclick ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+expandOnDoubleclick = 1;
+</syntaxhighlight>
+=== H ===
+==== hiddenTexture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+hiddenTexture = "A3\ui_f\data\gui\rsccommon\rsctree\hiddenTexture_ca.paa";
+</syntaxhighlight>
+=== I ===
+==== iconFolder ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+iconFolder = "\a3\3DEN\Data\Cfg3DEN\Layer\icon_ca.paa";
+</syntaxhighlight>
+==== iconFolderDefault ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+iconFolderDefault = "\a3\3DEN\Data\Cfg3DEN\Layer\iconDefault_ca.paa";
+</syntaxhighlight>
+==== idcSearch ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+idcSearch = 645;
+</syntaxhighlight>
+=== M ===
+==== maxHistoryDelay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+maxHistoryDelay = 1;
+</syntaxhighlight>
+==== multiselectEnabled ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+multiselectEnabled = 0;
+</syntaxhighlight>
+=== R ===
+==== rowHeight ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rowHeight = 0.0439091;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+{{Cfg ref|end}}

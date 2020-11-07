@@ -1,0 +1,140 @@
+{
+    "colorSelectBackground2": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBorder": {
+        "values": [
+            [
+                1,
+                0,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectBorder": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorDisabledBorder": {
+        "values": [
+            [
+                0,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect2": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundExpand": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscCombo\\soundExpand",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundCollapse": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscCombo\\soundCollapse",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundSelect": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscCombo\\soundSelect",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "Title": {
+        "values": [
+            "Title"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "List": {
+        "values": [
+            "List"
+        ],
+        "types": [
+            "Class"
+        ]
+    }
+}

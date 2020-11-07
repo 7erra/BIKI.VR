@@ -1,0 +1,88 @@
+<syntaxhighlight lang="cpp">#define CT_TOOLBOX 6</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== colorDisable ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorDisable[] = {0.4, 0.4, 0.4, 1};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== colorSelectedBg ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectedBg[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])", 0.5};
+</syntaxhighlight>
+==== colorTextDisable ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTextDisable[] = {0.4, 0.4, 0.4, 1};
+</syntaxhighlight>
+==== colorTextSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTextSelect[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== columns ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+columns = 3;
+</syntaxhighlight>
+=== N ===
+==== names ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+names[] = {'MOVE', 'GETOUT', 'UNLOAD', 'TR UNLOAD', '%1/cfgWaypoints/A3/Land', '%1/cfgWaypoints/A3/Artillery', 'UNHOOK'};
+</syntaxhighlight>
+=== R ===
+==== rows ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rows = 1;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== strings ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+strings[] = {'Never show', 'Show in cadet mode', 'Always show'};
+</syntaxhighlight>
+=== T ===
+==== tooltips ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+tooltips[] = {'Nothing to see here', 'YET'};
+</syntaxhighlight>
+=== V ===
+==== values ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+values[] = {0, 1};
+</syntaxhighlight>
+{{Cfg ref|end}}

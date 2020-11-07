@@ -1,0 +1,50 @@
+<syntaxhighlight lang="cpp">#define CT_USER 99</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== colorBar ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBar[] = {0.8, 0.8, 0.8, 1};
+</syntaxhighlight>
+==== colorLines ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorLines[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelection ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelection[] = {1, 0, 0, 1};
+</syntaxhighlight>
+==== colorShadow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorShadow[] = {0, 0, 0, 0.5};
+</syntaxhighlight>
+=== F ===
+==== fixedWidth ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fixedWidth = 0;
+</syntaxhighlight>
+=== L ===
+==== linespacing ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+linespacing = 1;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+{{Cfg ref|end}}

@@ -1,0 +1,105 @@
+<syntaxhighlight lang="cpp">#define CT_XLISTBOX 42</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== arrowEmpty ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrowEmpty = "\A3\ui_f\data\gui\cfg\slider\arrowEmpty_ca.paa";
+</syntaxhighlight>
+==== arrowFull ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrowFull = "\A3\ui_f\data\gui\cfg\slider\arrowFull_ca.paa";
+</syntaxhighlight>
+=== B ===
+==== border ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+border = "\A3\ui_f\data\gui\cfg\slider\border_ca.paa";
+</syntaxhighlight>
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 0.6};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPicture ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPicture[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRight[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureRightDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRightSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== cycle ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+cycle = 0;
+</syntaxhighlight>
+=== I ===
+==== Items ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 2;
+</syntaxhighlight>
+==== soundSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundSelect[] = {'\\A3\\ui_f\\data\\sound\\RscListbox\\soundSelect', 0.09, 1};
+</syntaxhighlight>
+{{Cfg ref|end}}

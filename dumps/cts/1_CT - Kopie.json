@@ -1,0 +1,549 @@
+{
+    "colorBackgroundDisabled": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackgroundActive": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.784314,
+                0.137255,
+                0.0627451,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.3
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.376471,
+                0.537255,
+                0.219608,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocused": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorShadow": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0.2
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBorder": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEnter": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\ReadOut\\readoutClick",
+                0.5,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\ReadOut\\readoutHideClick2",
+                0.75,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundPush": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundPush",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundClick": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundClick",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\CfgNotifications\\addItemOK",
+                0.5,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\ReadOut\\readoutHideClick1",
+                4,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEscape": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundPush",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            2,
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "url": {
+        "values": [
+            "",
+            "https://community.bistudio.com/wiki/createDiaryRecord",
+            "https://community.bistudio.com/wiki/addAction",
+            "https://units.arma3.com/"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "offsetX": {
+        "values": [
+            0,
+            0.0075
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "offsetY": {
+        "values": [
+            0,
+            0.01
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "offsetPressedX": {
+        "values": [
+            0,
+            "pixelW",
+            0.0075
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "offsetPressedY": {
+        "values": [
+            0,
+            "pixelH",
+            0.01
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "borderSize": {
+        "values": [
+            0,
+            0.01
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shortcuts": {
+        "values": [
+            [
+                "0x00050000 + 0",
+                28,
+                57,
+                156
+            ],
+            [
+                "0x00050000 + 1"
+            ],
+            [
+                "512 + 0x20"
+            ],
+            [
+                59
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocused2": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "period": {
+        "values": [
+            1.2,
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "textSearch": {
+        "values": [
+            "\\a3\\Ui_f\\data\\GUI\\RscCommon\\RscButtonSearch\\search_end_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\search_end_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "periodFocus": {
+        "values": [
+            2,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "periodOver": {
+        "values": [
+            0.5,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "KeyHints": {
+        "values": [
+            "KeyHints"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.23,
+                0.35,
+                0.42,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "idcx": {
+        "values": [
+            930,
+            900,
+            931,
+            901,
+            932,
+            902,
+            933,
+            903,
+            934,
+            904
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "textSave": {
+        "values": [
+            "Save"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textLoad": {
+        "values": [
+            "Open"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textImport": {
+        "values": [
+            "Import"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textMerge": {
+        "values": [
+            "Merge"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "action": {
+        "values": [
+            "'IMPORT'call ENH_fnc_3DENRadio_handlePlaylist",
+            "'EXPORT'call ENH_fnc_3DENRadio_handlePlaylist",
+            "'UNNAME' call ENH_fnc_nameObjects_name",
+            "call ENH_fnc_nameObjects_name",
+            "[] spawn ENH_fnc_textureFinder_fillTextureLB",
+            "call ENH_fnc_batchreplace",
+            "call ENH_fnc_actionCreator_export",
+            "call ENH_fnc_extraction_setup",
+            "BIS_SyndikatAgent setVariable ['State', 1];",
+            "do3DENAction 'MissionNew';"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorSelection": {
+        "values": [
+            [
+                0.47,
+                0.49,
+                0.47,
+                0.93
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "canModify": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "autocomplete": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

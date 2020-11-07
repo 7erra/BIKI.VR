@@ -1,0 +1,105 @@
+<includeonly>
+{{#switch: {{lc:{{{1}}}}}
+|start      = {{Navbox control types}}
+{{Cfg ref|start}}
+== Introduction ==
+{{{description}}}
+
+=== Related commands ===
+* [[:Category:Command_Group:_GUI_Control|General]]<!--
+-->{{#if: {{{commands|}}} | 
+{{{commands}}}
+}}
+
+=== Related User Interface Eventhandlers ===
+* [[User_Interface_Event_Handlers#Generic_events|Generic events]]<!--
+-->{{#if: {{{events|}}} | 
+{{{events}}}
+}}
+
+== Alphabetical Order ==
+{{Informative|TokenNames common to most controls, such as x, y, w, h, text, idc... can be found [[Arma:_GUI_Configuration#Common_Properties|'''here''']].}}
+
+{{#tag:syntaxhighlight|#define {{{macro}}} {{{value}}}|lang=cpp}}
+
+|abc = {{Cfg ref|abc}}
+|attribute = ==== {{{name}}} ====
+{{#if: {{{mandatory|}}} |{{Important|This attribute is mandatory for the control to work!}}}}
+;Type: [[TokenNameValueTypes|{{{type}}}]]
+;Description: {{{description}}}
+{{#tag:syntaxhighlight|{{#switch: {{{type}}}
+ | Array = {{{name}}}[] = {{{value}}};
+ | Class = class {{{name}}} {};
+ | {{{name}}} {{=}} {{{value}}};
+}}|lang=cpp}}
+
+|stop = {{Cfg ref|end}}
+
+|examples = = Default Classes =
+The following classes are part of the export that is generated with <code>"Default" call [[BIS_fnc_exportGUIBaseClasses]]</code>
+{{Informative|In order for the classes below to work you need to have them exported with the function above.}}
+{{Informative|Starting with {{arma3}} v2.01.146644 you can use the [[import]] directive instead.}}
+}}
+</includeonly><noinclude>
+{{wip}}
+
+== Usage ==
+<pre>
+</pre>
+
+{{CT|start
+|macro = CT_TREE
+|value = 1234
+|description = Informative text about this control type.
+|commands = * command group CT
+|events = 
+* event1
+* event2
+}}
+
+{{CT|abc}}
+=== T ===
+{{CT|attribute
+| name=testArray
+| value={1,0,0,1}
+| type=Array
+| description=This is a test array to test arrays. {{Important|Notice Me!}}
+}}
+{{CT|attribute
+| name=testAttribute
+| value="test"
+| type=String
+| description=This is a test attribute to test things.
+| mandatory=1
+}}
+
+{{CT|attribute
+| name=testClass
+| value=SubClass
+| type=Class
+| description=This is a test class to test classes.
+}}
+{{CT|stop}}
+
+{{CT|examples}}
+== RscExample ==
+<syntaxhighlight lang="cpp">
+class RscExample
+{
+    deletable = 0;
+    fade = 0;
+    access = 0;
+    type = CT_TYPEMACRO;
+    style = SL_HORZ;
+    color[] = {1,1,1,0.8};
+    colorActive[] = {1,1,1,1};
+    shadow = 0;
+    x = 0;
+    y = 0;
+    w = 0.3;
+    h = 0.025;
+};
+</syntaxhighlight>
+
+[[Category:Templates|{{uc:{{PAGENAME}}}}]]
+</noinclude>

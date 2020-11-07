@@ -1,0 +1,419 @@
+<syntaxhighlight lang="cpp">#define CT_LISTBOX 5</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== active ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+active = "a3\ui_f\data\gui\rsc\rscdisplaysinglemission\done_ca.paa";
+</syntaxhighlight>
+==== addons ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+addons = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_addons_ca.paa";
+</syntaxhighlight>
+==== allowedFilePatching ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+allowedFilePatching = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_version_ca.paa";
+</syntaxhighlight>
+==== arrowEmpty ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrowEmpty = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== arrowFull ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrowFull = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== autoScrollDelay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+autoScrollDelay = 5;
+</syntaxhighlight>
+==== autoScrollRewind ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+autoScrollRewind = 0;
+</syntaxhighlight>
+==== autoScrollSpeed ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+autoScrollSpeed = -1;
+</syntaxhighlight>
+=== C ===
+==== canDrag ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+canDrag = 1;
+</syntaxhighlight>
+==== collisionColor ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+collisionColor[] = {"(profilenamespace getvariable ['IGUI_ERROR_RGB_R',0.8])", "(profilenamespace getvariable ['IGUI_ERROR_RGB_G',0.0])", "(profilenamespace getvariable ['IGUI_ERROR_RGB_B',0.0])", 1};
+</syntaxhighlight>
+==== collisionColorFirstKey ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+collisionColorFirstKey[] = {"(profilenamespace getvariable ['IGUI_WARNING_RGB_R',0.8])", "(profilenamespace getvariable ['IGUI_WARNING_RGB_G',0.5])", "(profilenamespace getvariable ['IGUI_WARNING_RGB_B',0.0])", 1};
+</syntaxhighlight>
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== colorAI ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorAI[] = {1, 0, 0, 1};
+</syntaxhighlight>
+==== colorNobody ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorNobody[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPicture ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPicture[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRight[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureRightDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRightSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPingBad ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPingBad[] = {1, 0, 0, 1};
+</syntaxhighlight>
+==== colorPingGood ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPingGood[] = {0, 1, 0, 1};
+</syntaxhighlight>
+==== colorPingPoor ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPingPoor[] = {1, 0.6, 0, 1};
+</syntaxhighlight>
+==== colorPingUnknown ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPingUnknown[] = {0.4, 0.4, 0.4, 1};
+</syntaxhighlight>
+==== colorPlayer ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPlayer[] = {1, 1, 0, 1};
+</syntaxhighlight>
+==== colorScrollbar ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorScrollbar[] = {1, 0, 0, 0};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelect2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect2[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelect2Right ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect2Right[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelectBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBackground[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== colorSelectBackground2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBackground2[] = {1, 1, 1, 0.5};
+</syntaxhighlight>
+==== colorSelectRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectRight[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorShadow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorShadow[] = {0, 0, 0, 0.5};
+</syntaxhighlight>
+==== colorTextRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTextRight[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== columns ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+columns = 1;
+</syntaxhighlight>
+=== D ===
+==== disabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disabled = "a3\ui_f\data\gui\rsc\rscdisplaysinglemission\none_ca.paa";
+</syntaxhighlight>
+==== disabledAI ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disabledAI = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayersetup\disabledai_ca.paa";
+</syntaxhighlight>
+==== disabledCtrlColor ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disabledCtrlColor[] = {1, 1, 1, 0.5};
+</syntaxhighlight>
+==== disabledKeyColor ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+disabledKeyColor[] = {0.4, 0.4, 0.4, 1};
+</syntaxhighlight>
+==== DLCTemplate ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== E ===
+==== enabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+enabled = "a3\ui_f\data\gui\rsc\rscdisplaysinglemission\done_ca.paa";
+</syntaxhighlight>
+==== enabledAI ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+enabledAI = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayersetup\enabledai_ca.paa";
+</syntaxhighlight>
+=== I ===
+==== idcx ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+idcx = 960;
+</syntaxhighlight>
+==== itemBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+itemBackground[] = {1, 1, 1, 0.1};
+</syntaxhighlight>
+==== itemSpacing ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+itemSpacing = 0;
+</syntaxhighlight>
+==== Items ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== L ===
+==== locked ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+locked = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_locked_ca.paa";
+</syntaxhighlight>
+==== ListScrollBar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== M ===
+==== mainCollumW ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+mainCollumW = 0.4;
+</syntaxhighlight>
+==== maxHistoryDelay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+maxHistoryDelay = 1;
+</syntaxhighlight>
+==== mods ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+mods = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_mods_ca.paa";
+</syntaxhighlight>
+=== N ===
+==== none ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+none = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_none_ca.paa";
+</syntaxhighlight>
+=== P ===
+==== password ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+password = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_password_ca.paa";
+</syntaxhighlight>
+==== period ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+period = 1.2;
+</syntaxhighlight>
+=== R ===
+==== rowHeight ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rowHeight = 0;
+</syntaxhighlight>
+==== rows ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rows = 15;
+</syntaxhighlight>
+=== S ===
+==== secndCollumW ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+secndCollumW = 0.6;
+</syntaxhighlight>
+==== serverDislike ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+serverDislike = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\mp_serverdislike_ca.paa";
+</syntaxhighlight>
+==== serverEmpty ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+serverEmpty = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\mp_serverempty_ca.paa";
+</syntaxhighlight>
+==== serverLike ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+serverLike = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\mp_serverlike_ca.paa";
+</syntaxhighlight>
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== size ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+size = "3.875 * (1 / (getResolution select 3)) * pixelGrid * 0.5";
+</syntaxhighlight>
+==== sizeEx2 ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeEx2 = "0.8 * 			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+</syntaxhighlight>
+==== soundSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundSelect[] = {'\\A3\\ui_f\\data\\sound\\RscListbox\\soundSelect', 0.09, 1};
+</syntaxhighlight>
+==== star ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+star = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_star_ca.paa";
+</syntaxhighlight>
+=== V ===
+==== version ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+version = "a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\sessions_version_ca.paa";
+</syntaxhighlight>
+=== W ===
+==== wholeHeight ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+wholeHeight = 0.21;
+</syntaxhighlight>
+{{Cfg ref|end}}

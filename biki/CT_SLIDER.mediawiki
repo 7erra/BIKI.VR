@@ -1,0 +1,87 @@
+= Introduction =
+{{Important|This slider is deprecated. You might want to use [[CT_XSLIDER]].}}
+A slider can be used to make the user select a value in a predefined range.
+[[Image:Arma RscSlider.jpg|thumb|Example for a CT_SLIDER control.]]
+= Alphabetical Order =
+{{Informative|TokenNames common to most controls, such as x, y, w, h, text, idc... can be found [[Arma:_GUI_Configuration#Common_Properties|'''here''']].}}
+
+<syntaxhighlight lang="cpp">#define CT_SLIDER 3</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Color of the slider.
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 0.8};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Color when the slider is focused.
+<syntaxhighlight lang="cpp">
+colorActive[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== S ===
+<!-- ==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight> -->
+==== sliderPosition ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Inital value the slider is set to when loaded.
+<syntaxhighlight lang="cpp">
+sliderPosition = 42;
+</syntaxhighlight>
+==== sliderRange ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Slider range in format {min,max}.
+<syntaxhighlight lang="cpp">
+sliderRange[] = {0, 100};
+</syntaxhighlight>
+==== sliderStep ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Size of the steps when slider is dragged, eg if sliderStep is 1 only integers are possible for the slider value.
+<syntaxhighlight lang="cpp">
+sliderStep = 1;
+</syntaxhighlight>
+<!-- === T ===
+==== Title ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== V ===
+==== Value ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight> -->
+{{Cfg ref|end}}
+
+= Default Classes =
+The following classes are part of the export that is generated with <code>"Default" call [[BIS_fnc_exportGUIBaseClasses]]</code>
+{{Informative|In order for the classes below to work you need to have them exported with the function above.}}
+== RscSlider ==
+<syntaxhighlight lang="cpp">
+class RscSlider
+{
+	deletable = 0;
+	fade = 0;
+	access = 0;
+	type = CT_SLIDER;
+	style = SL_HORZ;
+	color[] = {1,1,1,0.8};
+	colorActive[] = {1,1,1,1};
+	shadow = 0;
+	x = 0;
+	y = 0;
+	w = 0.3;
+	h = 0.025;
+};
+</syntaxhighlight>
+
+[[Category: Dialogs]]

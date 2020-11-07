@@ -1,0 +1,238 @@
+{
+    "colorLink": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.75
+            ],
+            [
+                1,
+                0.72,
+                0.3,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorLinkActive": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                1,
+                0.72,
+                0.3,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            2,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "P": {
+        "values": [
+            "P"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "filename": {
+        "values": [
+            "",
+            "a3\\ui_f\\data\\html\\RscFeedback.html"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorBold": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPicture": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureLink": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureBorder": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "H1": {
+        "values": [
+            "H1"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "H2": {
+        "values": [
+            "H2"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "H3": {
+        "values": [
+            "H3"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "H4": {
+        "values": [
+            "H4"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "H5": {
+        "values": [
+            "H5"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "H6": {
+        "values": [
+            "H6"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "prevPage": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\rsccommon\\rschtml\\arrow_left_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlHTML\\prevPage_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "nextPage": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\rsccommon\\rschtml\\arrow_right_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlHTML\\nextPage_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "cycleLinks": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "cycleAllLinks": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

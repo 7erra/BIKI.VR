@@ -1,0 +1,253 @@
+{
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.6
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                0.4
+            ],
+            [
+                0,
+                1,
+                0,
+                0.4
+            ],
+            [
+                0,
+                0,
+                1,
+                0.4
+            ],
+            [
+                1,
+                1,
+                1,
+                0.4
+            ],
+            [
+                1,
+                0,
+                0,
+                0.6
+            ],
+            [
+                0,
+                1,
+                0,
+                0.6
+            ],
+            [
+                0,
+                0,
+                1,
+                0.6
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                1,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.6
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorDisable": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.4
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "arrowEmpty": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\arrowEmpty_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\arrowEmpty_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "arrowFull": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\arrowFull_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\arrowFull_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "border": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\border_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\border_ca.paa",
+            "#(argb,8,8,3)color(0,0,0,0.1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "thumb": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\thumb_ca.paa",
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\thumb_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "sliderRange": {
+        "values": [
+            [
+                0,
+                100
+            ],
+            [
+                0,
+                1.5
+            ],
+            [
+                0,
+                1
+            ],
+            [
+                0,
+                200
+            ],
+            [
+                0,
+                359
+            ],
+            [
+                0,
+                360
+            ],
+            [
+                0,
+                50
+            ],
+            [
+                1,
+                20
+            ],
+            [
+                1,
+                10000
+            ],
+            [
+                0.01,
+                60
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "sliderPosition": {
+        "values": [
+            42,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "Title": {
+        "values": [
+            "Title"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Value": {
+        "values": [
+            "Value"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "lineSize": {
+        "values": [
+            0.1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "sliderStep": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

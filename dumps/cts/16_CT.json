@@ -1,0 +1,662 @@
+{
+    "shortcuts": {
+        "values": [
+            [
+                "0x00050000 + 1"
+            ],
+            [
+                "0x00050000 + 0",
+                28,
+                57,
+                156
+            ],
+            [],
+            [
+                "0x00050000 + 2"
+            ],
+            [
+                "0x00050000 + 2",
+                "512 + 0x1C",
+                "512 + 0x9C"
+            ],
+            [
+                "512 + 0x12"
+            ],
+            [
+                "512 + 0x02"
+            ],
+            [
+                "512 + 0x03"
+            ],
+            [
+                "512 + 0x04"
+            ],
+            [
+                "512 + 0x05"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "animTextureNormal": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButtonMain\\normal_ca.paa",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButton\\normal_ca.paa",
+            "#(argb,8,8,3)color(0,0,0,1)",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\PanelRight\\playNormal_ca.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L02.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "animTextureDisabled": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButtonMain\\disabled_ca.paa",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButton\\normal_ca.paa",
+            "#(argb,8,8,3)color(0,0,0,1)",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\PanelRight\\playDisabled_ca.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\disabled_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\disabled_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\disabled_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\disabled_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\disabled_L02.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "animTextureOver": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButtonMain\\over_ca.paa",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButton\\over_ca.paa",
+            "#(argb,8,8,3)color(1,1,1,0.5)",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\PanelRight\\playOver_ca.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\over_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\over_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\over_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\over_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\over_L02.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "animTextureFocused": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButtonMain\\focus_ca.paa",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButton\\focus_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\PanelRight\\playOver_ca.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\focused_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\focused_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\focused_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\focused_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\focused_L02.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\focused_L03.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "animTexturePressed": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButtonMain\\down_ca.paa",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButton\\down_ca.paa",
+            "#(argb,8,8,3)color(0,0,0,1)",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\PanelRight\\playNormal_ca.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\down_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\down_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\down_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\down_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\down_L02.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "animTextureDefault": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButtonMain\\normal_ca.paa",
+            "\\A3\\ui_f\\data\\GUI\\RscCommon\\RscShortcutButton\\normal_ca.paa",
+            "#(argb,8,8,3)color(0,0,0,1)",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L02.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L03.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorBackgroundFocused": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackground2": {
+        "values": [
+            [
+                0.75,
+                0.75,
+                0.75,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0.85
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.65
+            ],
+            [
+                "138/256",
+                "146/256",
+                "105/256",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocused": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "color2": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.8
+            ],
+            [
+                1,
+                1,
+                1,
+                0.85
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "textSecondary": {
+        "values": [
+            ""
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorSecondary": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocusedSecondary": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "color2Secondary": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorDisabledSecondary": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "sizeExSecondary": {
+        "values": [
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "fontSecondary": {
+        "values": [
+            "PuristaLight",
+            "RobotoCondensed"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "period": {
+        "values": [
+            1.2,
+            0.5,
+            0.4,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "periodFocus": {
+        "values": [
+            1.2,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "periodOver": {
+        "values": [
+            1.2,
+            0.8,
+            0.5
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "size": {
+        "values": [
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)",
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1.2)",
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)",
+            "1.25 * \t(pixelH * pixelGrid * 2)",
+            "(pixelH * pixelGrid * 2)",
+            "1.5 * \t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "1 * \t(safezoneH / 40)",
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "2.88 * (1 / (getResolution select 3)) * pixelGrid * 0.5",
+            "4.86 * (1 / (getResolution select 3)) * pixelGrid * 0.5"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "TextPos": {
+        "values": [
+            "TextPos"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Attributes": {
+        "values": [
+            "Attributes"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "ShortcutPos": {
+        "values": [
+            "ShortcutPos"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "soundEnter": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundEnter",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundPush": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundPush",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButtonMenuOK\\soundPush",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundPush",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundClick": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundClick",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundClick",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEscape": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundEscape",
+                0.09,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "HitZone": {
+        "values": [
+            "HitZone"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "textureNoShortcut": {
+        "values": [
+            "#(argb,8,8,3)color(0,0,0,0)",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscButtonMenuSteam\\steam_ca.paa",
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "#(argb,8,8,3)color(1,1,1,0)",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlShortcutButton\\steam_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "url": {
+        "values": [
+            "",
+            "https://steamcommunity.com/workshop/browse?appid=107410",
+            "https://dev.arma3.com/latest/sitrep",
+            "https://dev.arma3.com/latest/spotrep",
+            "https://forums.bistudio.com/topic/140837-development-branch-changelog/?view=getlastpost"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "action": {
+        "values": [
+            "",
+            "cameraOn spawn bis_fnc_cameraOld;",
+            "[] call bis_fnc_camera;",
+            "_nil = [] execvm '\\A3\\@debug\\debug1.sqf';",
+            "_nil = [] execvm '\\A3\\@debug\\debug2.sqf';",
+            "_nil = [] execvm '\\A3\\@debug\\debug3.sqf';",
+            "_nil = [] execvm '\\A3\\@debug\\debug4.sqf';",
+            "_nil = [] execvm '\\A3\\@debug\\debug5.sqf';",
+            "_nil = [] execvm '\\A3\\@debug\\debug6.sqf';",
+            "finddisplay 151 createdisplay 'RscDisplayOptionsLayout'"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "AttributesImage": {
+        "values": [
+            "AttributesImage"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "KeyHints": {
+        "values": [
+            "KeyHints"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "shpw": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorBackgroundActive": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "animTextureNoShortcut": {
+        "values": [
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_circle.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_top.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_bottom.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L02.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L03.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_L04.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_R01.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_R02.paa",
+            "\\x\\cba\\addons\\ui\\flexiMenu\\data\\rose\\normal_R03.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    }
+}

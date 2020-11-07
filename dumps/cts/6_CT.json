@@ -1,0 +1,394 @@
+{
+    "strings": {
+        "values": [
+            [
+                "Never show",
+                "Show in cadet mode",
+                "Always show"
+            ],
+            [
+                "Icon",
+                "Rectangle",
+                "Ellipse"
+            ],
+            [
+                "Ellipse",
+                "Rectangle"
+            ],
+            [
+                "Once",
+                "Repeatedly"
+            ],
+            [
+                "Present",
+                "Not present",
+                "Detected by BLUFOR",
+                "Detected by OPFOR",
+                "Detected by Independent",
+                "Detected by Civilians"
+            ],
+            [
+                "Countdown",
+                "Timeout"
+            ],
+            [
+                "Nobody",
+                "BLUFOR",
+                "OPFOR",
+                "Everybody"
+            ],
+            [
+                "ENTITIES",
+                "LOCATIONS"
+            ],
+            [
+                "(F1) Units",
+                "(F2) Groups",
+                "(F3) Triggers",
+                "(F4) Waypoints",
+                "(F5) Synchronize",
+                "(F6) Markers",
+                "(F7) Modules"
+            ],
+            [
+                "Alpha",
+                "Bravo",
+                "Charlie",
+                "Delta"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "rows": {
+        "values": [
+            1,
+            3,
+            7,
+            2,
+            4
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "columns": {
+        "values": [
+            3,
+            2,
+            4,
+            1,
+            7,
+            5,
+            "6 - 1",
+            6
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTextSelect": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTextDisable": {
+        "values": [
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorDisable": {
+        "values": [
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectedBg": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                0.65
+            ],
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                0.2,
+                0.2,
+                0.2,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "values": {
+        "values": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                2,
+                3,
+                4
+            ],
+            [],
+            [
+                0,
+                1,
+                2
+            ],
+            [
+                0.0001,
+                0.001,
+                0.01,
+                0.1,
+                1,
+                10,
+                100
+            ],
+            [
+                10,
+                4,
+                2,
+                1
+            ],
+            [
+                0,
+                1,
+                2,
+                3
+            ],
+            [
+                1037,
+                1038
+            ],
+            [
+                1039,
+                1040
+            ],
+            [
+                0,
+                1,
+                2,
+                4,
+                5,
+                6
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "tooltips": {
+        "values": [
+            [
+                "Nothing to see here",
+                "YET"
+            ],
+            [
+                "Show inherited properties",
+                "Only show config specific properties"
+            ],
+            [
+                "",
+                ""
+            ],
+            [
+                "Sets the size of the increment when clicking the arrows next to the sliders.",
+                "Sets the size of the increment when clicking the arrows next to the sliders.",
+                "Sets the size of the increment when clicking the arrows next to the sliders.",
+                "Sets the size of the increment when clicking the arrows next to the sliders.",
+                "Sets the size of the increment when clicking the arrows next to the sliders.",
+                "Sets the size of the increment when clicking the arrows next to the sliders.",
+                "Sets the size of the increment when clicking the arrows next to the sliders."
+            ],
+            [
+                "Objects",
+                "Compositions",
+                "Triggers",
+                "Systems",
+                "Markers"
+            ],
+            [
+                "Objects",
+                "Compositions",
+                "Triggers",
+                "Waypoints",
+                "Systems",
+                "Markers"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "names": {
+        "values": [
+            [
+                "MOVE",
+                "GETOUT",
+                "UNLOAD",
+                "TR UNLOAD",
+                "%1/cfgWaypoints/A3/Land",
+                "%1/cfgWaypoints/A3/Artillery",
+                "UNHOOK"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    }
+}

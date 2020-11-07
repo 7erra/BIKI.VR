@@ -1,0 +1,214 @@
+{
+    "model": {
+        "values": [
+            "\\core\\notepad\\notepad.p3d",
+            "\\A3\\Misc_F\\Helpers\\UserTexture1m.p3d"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionPaper": {
+        "values": [
+            "paper"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "position": {
+        "values": [
+            [
+                -0.08,
+                0,
+                0.32
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "scale": {
+        "values": [
+            1.2,
+            0.2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "positionBack": {
+        "values": [
+            [
+                -0.325,
+                0.197,
+                0.8
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "inBack": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "enableZoom": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "zoomDuration": {
+        "values": [
+            0.5
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "paper1": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "paper2": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "paper3": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "paper4": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "paper5": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "paper6": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "paper7": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "Areas": {
+        "values": [
+            "Areas"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "direction": {
+        "values": [
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "up": {
+        "values": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0.5,
+                1,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "z": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "xBack": {
+        "values": [
+            "25 * \t\t\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 40) + \t\t(safezoneX + (safezoneW - \t\t\t\t\t((safezoneW / safezoneH) min 1.2))/2)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "yBack": {
+        "values": [
+            "12 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + \t\t(safezoneY + (safezoneH - \t\t\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2))/2)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "zBack": {
+        "values": [
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

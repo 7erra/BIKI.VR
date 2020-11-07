@@ -1,0 +1,46 @@
+{
+    "Attributes": {
+        "values": [
+            "Attributes"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "size": {
+        "values": [
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)",
+            "( 16 / 408 )",
+            0.035,
+            "(safezoneH*0.028)",
+            "0.8 * \t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "4.32 * (1 / (getResolution select 3)) * pixelGrid * 0.5",
+            0.045,
+            0.03,
+            "(0.025) * safezoneH"
+        ],
+        "types": [
+            "String",
+            "Number"
+        ]
+    },
+    "shadow": {
+        "values": [
+            1,
+            0,
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "canModify": {
+        "values": [
+            "false"
+        ],
+        "types": [
+            "String"
+        ]
+    }
+}

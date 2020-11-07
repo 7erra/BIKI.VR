@@ -1,0 +1,241 @@
+{
+    "VScrollbar": {
+        "values": [
+            "VScrollbar",
+            "VScrollBar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "HScrollbar": {
+        "values": [
+            "HScrollbar",
+            "HScrollBar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "magW": {
+        "values": [
+            0.055
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "magH": {
+        "values": [
+            0.074
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "weaponW": {
+        "values": [
+            0.226
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "weaponH": {
+        "values": [
+            0.15
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "gunW": {
+        "values": [
+            0.113
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "gunH": {
+        "values": [
+            0.15
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "spacing": {
+        "values": [
+            0.002
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackgroundSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocused": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundPush": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundClick": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundDoubleClick": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "disableCustomColors": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "enableDisplay": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "scriptName": {
+        "values": [
+            "RscHorizontalCompass"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "scriptPath": {
+        "values": [
+            "EnochCommon"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "lineHeight": {
+        "values": [
+            "1.2 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "highlightColorFrom": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "highlightColorTo": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "highlightAnimLength": {
+        "values": [
+            1.2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "adminOnly": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

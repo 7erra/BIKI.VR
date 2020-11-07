@@ -1,0 +1,80 @@
+<syntaxhighlight lang="cpp">#define CT_CHECKBOXES 7</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== checked_strings ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+checked_strings[] = {'Agree'};
+</syntaxhighlight>
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorDisable ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorDisable[] = {0.4, 0.4, 0.4, 1};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelectedBg ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectedBg[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorTextDisable ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTextDisable[] = {0.4, 0.4, 0.4, 1};
+</syntaxhighlight>
+==== colorTextSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTextSelect[] = {0, 0.8, 0, 1};
+</syntaxhighlight>
+==== columns ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+columns = 1;
+</syntaxhighlight>
+=== R ===
+==== rows ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rows = 1;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== strings ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+strings[] = {'Disagree'};
+</syntaxhighlight>
+=== V ===
+==== values ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+values[] = {1, 2, 3, 4};
+</syntaxhighlight>
+{{Cfg ref|end}}

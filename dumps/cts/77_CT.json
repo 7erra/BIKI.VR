@@ -1,0 +1,439 @@
+{
+    "textureChecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_down_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureChecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_on_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureUnchecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_crossed_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_up_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureUnchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_off_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureFocusedChecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_down_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureChecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_on_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureFocusedUnchecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_crossed_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_up_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureUnchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_off_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureHoverChecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_down_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureChecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_on_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureHoverUnchecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_crossed_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_up_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureUnchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_off_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "texturePressedChecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_down_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureChecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_on_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "texturePressedUnchecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_crossed_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_up_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureUnchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_off_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureDisabledChecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_down_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_checked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureChecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_on_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_on_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textureDisabledUnchecked": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_crossed_ca.paa",
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_up_ca.paa",
+            "A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\A3\\Ui_f\\data\\GUI\\RscCommon\\RscCheckBox\\CheckBox_unchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\ctrlCheckbox\\textureUnchecked_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_none_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_translation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_rotation_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_scaling_off_ca.paa",
+            "\\a3\\3DEN\\Data\\Displays\\Display3DEN\\ToolBar\\widget_area_off_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "checked": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.7
+            ],
+            [
+                0.584314,
+                0.501961,
+                0.180392,
+                0.75
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocused": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.584314,
+                0.501961,
+                0.180392,
+                0.75
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorHover": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.584314,
+                0.501961,
+                0.180392,
+                0.75
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPressed": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.584314,
+                0.501961,
+                0.180392,
+                0.75
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackgroundFocused": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0.7
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackgroundHover": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0.7
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackgroundPressed": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0.7
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBackgroundDisabled": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0.7
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEnter": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter",
+                0.09,
+                1
+            ],
+            [
+                "\\a3\\ui_f\\data\\Sound\\RscButtonMenu\\soundEnter",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundPush": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundPush",
+                0.09,
+                1
+            ],
+            [
+                "\\a3\\ui_f\\data\\Sound\\RscButtonMenu\\soundPush",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundClick": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundClick",
+                0.09,
+                1
+            ],
+            [
+                "\\a3\\ui_f\\data\\Sound\\RscButtonMenu\\soundClick",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEscape": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape",
+                0.09,
+                1
+            ],
+            [
+                "\\a3\\ui_f\\data\\Sound\\RscButtonMenu\\soundEscape",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    }
+}

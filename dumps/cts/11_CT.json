@@ -1,0 +1,460 @@
+{
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.7
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_A',0.8])"
+            ],
+            [
+                1,
+                1,
+                1,
+                0.25
+            ],
+            [
+                0.9,
+                0.9,
+                0.9,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                0.75
+            ],
+            [
+                "(profilenamespace getvariable ['Map_BLUFOR_R',0])",
+                "(profilenamespace getvariable ['Map_BLUFOR_G',1])",
+                "(profilenamespace getvariable ['Map_BLUFOR_B',1])",
+                0.75
+            ],
+            [
+                "(profilenamespace getvariable ['Map_OPFOR_R',0])",
+                "(profilenamespace getvariable ['Map_OPFOR_G',1])",
+                "(profilenamespace getvariable ['Map_OPFOR_B',1])",
+                0.75
+            ],
+            [
+                "(profilenamespace getvariable ['Map_Independent_R',0])",
+                "(profilenamespace getvariable ['Map_Independent_G',1])",
+                "(profilenamespace getvariable ['Map_Independent_B',1])",
+                0.75
+            ],
+            [
+                "(profilenamespace getvariable ['Map_Civilian_R',0])",
+                "(profilenamespace getvariable ['Map_Civilian_G',1])",
+                "(profilenamespace getvariable ['Map_Civilian_B',1])",
+                0.75
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                0.3,
+                0.4,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['Map_BLUFOR_R',0])",
+                "(profilenamespace getvariable ['Map_BLUFOR_G',1])",
+                "(profilenamespace getvariable ['Map_BLUFOR_B',1])",
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['Map_OPFOR_R',0])",
+                "(profilenamespace getvariable ['Map_OPFOR_G',1])",
+                "(profilenamespace getvariable ['Map_OPFOR_B',1])",
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['Map_Independent_R',0])",
+                "(profilenamespace getvariable ['Map_Independent_G',1])",
+                "(profilenamespace getvariable ['Map_Independent_B',1])",
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['Map_Civilian_R',0])",
+                "(profilenamespace getvariable ['Map_Civilian_G',1])",
+                "(profilenamespace getvariable ['Map_Civilian_B',1])",
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "textMuted": {
+        "values": [
+            "\\A3\\Ui_f\\Data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteVON_crossed_ca.paa",
+            "\\A3\\Ui_f\\Data\\IGUI\\RscIngameUI\\RscDisplayChannel\\MuteChat_crossed_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "soundEnter": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEnter",
+                0.09,
+                1
+            ],
+            [
+                "",
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundPush": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundPush",
+                0.09,
+                1
+            ],
+            [
+                "",
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundClick": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundClick",
+                0.09,
+                1
+            ],
+            [
+                "",
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundEscape": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ],
+            [
+                "\\A3\\ui_f\\data\\sound\\RscButton\\soundEscape",
+                0.09,
+                1
+            ],
+            [
+                "",
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            2,
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "url": {
+        "values": [
+            "",
+            "https://community.bistudio.com/wiki/DIK_KeyCodes"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "angle": {
+        "values": [
+            180
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "picture": {
+        "values": [
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_bluefor_empty_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_opfor_empty_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_indep_empty_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_civil_empty_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_virtual_empty_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_logic_empty_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "sideToggle": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_bluefor_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_opfor_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_indep_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_civil_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_virtual_ca.paa",
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_logic_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "sideDisabled": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\flag_none_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "pictureHeight": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "pictureWidth": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorShade": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "textHeight": {
+        "values": [
+            0.38
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorBackgroundSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorFocused": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundDoubleClick": {
+        "values": [
+            [
+                "",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "DLCTemplate": {
+        "values": [
+            "DLCTemplate"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "canDrag": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shortcuts": {
+        "values": [
+            [
+                14
+            ],
+            [
+                "512 + 0x31"
+            ],
+            [
+                "512 + 0x18"
+            ],
+            [
+                "512 + 0x1F"
+            ],
+            [
+                "512 + \t1024 + 0x1F"
+            ],
+            [
+                "512 + 0x32"
+            ],
+            [
+                "512 + 0x14"
+            ],
+            [
+                "512 + 0x17"
+            ],
+            [
+                "512 + 0x20"
+            ],
+            [
+                "512 + 0x21"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "action": {
+        "values": [
+            "(finddisplay 26) createdisplay 'RscDisplayDebugPublic';",
+            "[finddisplay 26] call (uinamespace getvariable 'bis_fnc_help');",
+            "[finddisplay 26] call (uinamespace getvariable 'bis_fnc_configviewer');"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "size": {
+        "values": [
+            "1 * (5 * 0.5 * pixelH * pixelGrid)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "enabled": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

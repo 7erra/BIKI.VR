@@ -1,0 +1,870 @@
+{
+    "rowHeight": {
+        "values": [
+            0,
+            0.029,
+            "4.32 * (1 / (getResolution select 3)) * pixelGrid * 0.5",
+            "1.75 * \t\t(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)",
+            "2 * \t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "1.5 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "5 * (pixelH * pixelGrid * \t0.50)",
+            "1.375 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "3.96 * (1 / (getResolution select 3)) * pixelGrid * 0.5"
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "colorScrollbar": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                0
+            ],
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect2": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectBackground": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.3
+            ],
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectBackground2": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.3
+            ],
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundSelect": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscListbox\\soundSelect",
+                0.09,
+                1
+            ],
+            [
+                "",
+                0.1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "autoScrollSpeed": {
+        "values": [
+            -1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "autoScrollDelay": {
+        "values": [
+            5,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "autoScrollRewind": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "arrowEmpty": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "arrowFull": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorPicture": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRight": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTextRight": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectRight": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect2Right": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "ListScrollBar": {
+        "values": [
+            "ListScrollBar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorShadow": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "period": {
+        "values": [
+            1.2,
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "maxHistoryDelay": {
+        "values": [
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "rows": {
+        "values": [
+            15,
+            10,
+            8,
+            18.5
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "columns": {
+        "values": [
+            1,
+            "Columns"
+        ],
+        "types": [
+            "Number",
+            "Class"
+        ]
+    },
+    "active": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaysinglemission\\done_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "enabled": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaysinglemission\\done_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "disabled": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaysinglemission\\none_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "canDrag": {
+        "values": [
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "collisionColor": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['IGUI_ERROR_RGB_R',0.8])",
+                "(profilenamespace getvariable ['IGUI_ERROR_RGB_G',0.0])",
+                "(profilenamespace getvariable ['IGUI_ERROR_RGB_B',0.0])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "collisionColorFirstKey": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_R',0.8])",
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_G',0.5])",
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_B',0.0])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "disabledKeyColor": {
+        "values": [
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "mainCollumW": {
+        "values": [
+            0.4,
+            0.45
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "secndCollumW": {
+        "values": [
+            0.6,
+            0.55
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "disabledCtrlColor": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "itemSpacing": {
+        "values": [
+            0,
+            0.001
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorPingUnknown": {
+        "values": [
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPingGood": {
+        "values": [
+            [
+                0,
+                1,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPingPoor": {
+        "values": [
+            [
+                1,
+                0.6,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPingBad": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "password": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_password_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "locked": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_locked_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "allowedFilePatching": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_version_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "version": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_version_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "none": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_none_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "star": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_star_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "addons": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_addons_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "mods": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\sessions_mods_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "serverLike": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\mp_serverlike_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "serverDislike": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\mp_serverdislike_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "serverEmpty": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\mp_serverempty_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorPlayer": {
+        "values": [
+            [
+                1,
+                1,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorAI": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorNobody": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "enabledAI": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\enabledai_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "disabledAI": {
+        "values": [
+            "a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayersetup\\disabledai_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "wholeHeight": {
+        "values": [
+            0.21
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "DLCTemplate": {
+        "values": [
+            "DLCTemplate"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "sizeEx2": {
+        "values": [
+            "0.8 * \t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "itemBackground": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "idcx": {
+        "values": [
+            960,
+            961,
+            962,
+            963,
+            964,
+            965,
+            966,
+            967,
+            968,
+            969
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "Items": {
+        "values": [
+            "Items"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "size": {
+        "values": [
+            "3.875 * (1 / (getResolution select 3)) * pixelGrid * 0.5"
+        ],
+        "types": [
+            "String"
+        ]
+    }
+}

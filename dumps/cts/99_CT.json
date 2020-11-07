@@ -1,0 +1,78 @@
+{
+    "colorLines": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorBar": {
+        "values": [
+            [
+                0.8,
+                0.8,
+                0.8,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelection": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "fixedWidth": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorShadow": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "linespacing": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

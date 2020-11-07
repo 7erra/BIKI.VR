@@ -1,0 +1,136 @@
+<syntaxhighlight lang="cpp">#define CT_MENU_STRIP 47</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== arrow ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrow = "\a3\3DEN\Data\Controls\ctrlMenu\arrow_ca.paa";
+</syntaxhighlight>
+=== C ===
+==== colorBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBorder[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorPicture ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPicture[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureDisabled[] = {1, 1, 1, 0.5};
+</syntaxhighlight>
+==== colorPictureSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelect[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelectBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])", 1};
+</syntaxhighlight>
+==== colorStripBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorStripBackground[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorStripDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorStripDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorStripSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorStripSelect[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorStripSelectBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorStripSelectBackground[] = {"(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])", "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])", "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])", 1};
+</syntaxhighlight>
+==== colorStripText ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorStripText[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== I ===
+==== itemSpacingH ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+itemSpacingH = 0.01;
+</syntaxhighlight>
+==== itemSpacingW ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+itemSpacingW = 0.01;
+</syntaxhighlight>
+==== Items ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== P ===
+==== pictureCheckboxDisabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+pictureCheckboxDisabled = "#(argb,8,8,3)color(0,0,0,0)";
+</syntaxhighlight>
+==== pictureCheckboxEnabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+pictureCheckboxEnabled = "\a3\3DEN\Data\Controls\CtrlMenu\pictureCheckboxEnabled_ca.paa";
+</syntaxhighlight>
+==== pictureRadioDisabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+pictureRadioDisabled = "#(argb,8,8,3)color(0,0,0,0)";
+</syntaxhighlight>
+==== pictureRadioEnabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+pictureRadioEnabled = "\a3\3DEN\Data\Controls\CtrlMenu\pictureRadioEnabled_ca.paa";
+</syntaxhighlight>
+=== R ===
+==== rowHeight ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rowHeight = 0;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 1;
+</syntaxhighlight>
+{{Cfg ref|end}}

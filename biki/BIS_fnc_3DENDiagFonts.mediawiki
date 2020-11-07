@@ -1,0 +1,54 @@
+{{Function|Comments=
+____________________________________________________________________________________________
+
+| arma3 |Game name=
+
+|1.56|Game version=
+
+|gr1= Eden Editor|GROUP1=
+____________________________________________________________________________________________
+
+| [[File:BIS fnc 3DENDiagFonts example.jpg|thumb|This display is opened when the function is called in Eden.]]
+Displays given font in various different sizes. The fontID is the index of the font in {{Inline code|[[configFile]] >> "CfgFontFamilies"}}.<br>
+Fonts for {{GVI|arma3|2.00}}:
+<ol start{{=}}"0">
+<li>LucidaConsoleB</li>
+<li>TahomaB</li>
+<li>EtelkaMonospacePro</li>
+<li>LCD14</li>
+<li>EtelkaMonospaceProBold</li>
+<li>EtelkaNarrowMediumPro</li>
+<li>PuristaBold</li>
+<li>PuristaLight</li>
+<li>PuristaMedium</li>
+<li>PuristaSemibold</li>
+<li>RobotoCondensed</li>
+<li>RobotoCondensedBold</li>
+<li>RobotoCondensedLight</li>
+<li>Caveat</li>
+</ol>
+|Description=
+____________________________________________________________________________________________
+
+| _fontID call [[BIS_fnc_3DENDiagFonts]]; |Syntax=
+|p1= _fontID: [[Number]] |Parameter 1=
+
+| [[Nothing]] |Return value=
+____________________________________________________________________________________________
+
+|x1= <code>1 [[call]] [[BIS_fnc_3DENDiagFonts]];</code> |Example1=
+____________________________________________________________________________________________
+
+|[[Eden Editor]],[[BIS_fnc_3DENCamera]],[[BIS_fnc_3DENControlsHint]],[[BIS_fnc_3DENDiagCreateList]],[[BIS_fnc_3DENDiagMouseControl]],[[BIS_fnc_3DENDrawLocations]],[[BIS_fnc_3DENEntityMenu]],[[BIS_fnc_3DENExportAttributes]],[[BIS_fnc_3DENExportOldSQM]],[[BIS_fnc_3DENExportTerrainBuilder]],[[BIS_fnc_3DENFlashlight]],[[BIS_fnc_3DENGrid]],[[BIS_fnc_3DENIntel]],[[BIS_fnc_3DENInterface]],[[BIS_fnc_3DENListLocations]],[[BIS_fnc_3DENMissionPreview]],[[BIS_fnc_3DENModuleDescription]],[[BIS_fnc_3DENShowMessage]],[[BIS_fnc_3DENStatusBar]],[[BIS_fnc_3DENToolbar]],[[BIS_fnc_3DENTutorial]],[[BIS_fnc_3DENVisionMode]]|See also=
+}}
+
+<h3 style="display:none">Notes</h3>
+<dl class="command_description">
+<!-- Note Section BEGIN -->
+
+<!-- Note Section END -->
+</dl>
+
+<h3 style="display:none">Bottom Section</h3>
+[[Category:Functions|{{uc:3DENDiagFonts}}]]
+[[Category:{{Name|arma3}}: Functions|{{uc:3DENDiagFonts}}]]

@@ -1,0 +1,128 @@
+{
+    "colorBar": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_A',0.8])"
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.9,
+                0.9,
+                0.9,
+                0.9
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_R',0.8])",
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_G',0.5])",
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_B',0.0])",
+                "(profilenamespace getvariable ['IGUI_WARNING_RGB_A',0.8])"
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "texture": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)",
+            "",
+            "#(argb,8,8,3)color(0,0,1,1)",
+            "\\a3\\Ui_f\\data\\IGUI\\RscTitles\\MPProgress\\progress_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorFrame": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.5,
+                0.5,
+                0.5,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "textureExt": {
+        "values": [
+            ""
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorExtBar": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    }
+}

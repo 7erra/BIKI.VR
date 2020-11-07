@@ -1,0 +1,109 @@
+{
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.8
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.45
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.45
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "sliderRange": {
+        "values": [
+            [
+                0,
+                100
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "sliderPosition": {
+        "values": [
+            42
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "Title": {
+        "values": [
+            "Title"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Value": {
+        "values": [
+            "Value"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "sliderStep": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

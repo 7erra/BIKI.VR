@@ -1,0 +1,316 @@
+{
+    "inBack": {
+        "values": [
+            "False"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "direction": {
+        "values": [
+            [
+                1,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                1
+            ],
+            [
+                -0.7,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "up": {
+        "values": [
+            [
+                0,
+                1,
+                0
+            ],
+            [
+                0,
+                1,
+                -0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "zoomDuration": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "waitForLoad": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "model": {
+        "values": [
+            "\\A3\\ui_f\\objects\\Compass.p3d",
+            "\\A3\\ui_f\\objects\\face_preview",
+            "\\A3\\Weapons_f\\empty",
+            "\\a3\\Ui_f\\objects\\Watch.p3d"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionArrow": {
+        "values": [
+            ""
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "xBack": {
+        "values": [
+            0.6,
+            0.75
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "yBack": {
+        "values": [
+            0.5,
+            0.9
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "z": {
+        "values": [
+            0.2,
+            0.38,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "zBack": {
+        "values": [
+            0.1,
+            0.25
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "enableZoom": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "scale": {
+        "values": [
+            0.35,
+            0.21,
+            1.2,
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "modelWoman": {
+        "values": [
+            "\\A3\\ui_f\\objects\\face_preview"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "faceType": {
+        "values": [
+            "Man_A3"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionLBrow": {
+        "values": [
+            "lBrow"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionMBrow": {
+        "values": [
+            "mBrow"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionRBrow": {
+        "values": [
+            "rBrow"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionLMouth": {
+        "values": [
+            "lMouth"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionMMouth": {
+        "values": [
+            "mMouth"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionRMouth": {
+        "values": [
+            "rMouth"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionEyelid": {
+        "values": [
+            "eyelids"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionLip": {
+        "values": [
+            "LLip"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneHead": {
+        "values": [
+            "head"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneLEye": {
+        "values": [
+            "l_eye"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneREye": {
+        "values": [
+            "r_eye"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneLEyelidUp": {
+        "values": [
+            "eye_upl"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneREyelidUp": {
+        "values": [
+            "eye_upr"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneLEyelidDown": {
+        "values": [
+            "eye_lwl"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneREyelidDown": {
+        "values": [
+            "eye_lwr"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneLPupil": {
+        "values": [
+            "l_pupila"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "boneRPupil": {
+        "values": [
+            "r_pupila"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionPersonality": {
+        "values": [
+            "personality"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionGlasses": {
+        "values": [
+            "eyelids"
+        ],
+        "types": [
+            "String"
+        ]
+    }
+}

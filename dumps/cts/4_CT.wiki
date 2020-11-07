@@ -1,0 +1,208 @@
+= Introduction =
+GIVE_INTRODUCTION_TO_THIS_CONTROL_TYPE
+
+= Alphabetical Order =
+{{Informative|TokenNames common to most controls, such as x, y, w, h, text, idc... can be found [[Arma:_GUI_Configuration#Common_Properties|'''here''']].}}
+
+<syntaxhighlight lang="cpp">#define CT_COMBO 4</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+
+=== A ===
+==== arrowEmpty ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrowEmpty = "\A3\ui_f\data\GUI\RscCommon\rsccombo\arrow_combo_ca.paa";
+</syntaxhighlight>
+==== arrowFull ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+arrowFull = "\A3\ui_f\data\GUI\RscCommon\rsccombo\arrow_combo_active_ca.paa";
+</syntaxhighlight>
+=== C ===
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {1, 0, 0, 1};
+</syntaxhighlight>
+==== colorPicture ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPicture[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRight[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureRightDisabled ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightDisabled[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorPictureRightSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureRightSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelect[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorPictureSelected ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPictureSelected[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorScrollbar ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorScrollbar[] = {1, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelect2Right ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect2Right[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelectBackground ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBackground[] = {1, 1, 1, 0.7};
+</syntaxhighlight>
+==== colorSelectRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectRight[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorTextRight ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTextRight[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== ComboScrollBar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== E ===
+==== ExtendedTooltip ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== F ===
+==== from ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+from = 1982;
+</syntaxhighlight>
+=== G ===
+==== gridType ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+gridType = "translation";
+</syntaxhighlight>
+=== I ===
+==== Items ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== M ===
+==== maxHistoryDelay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+maxHistoryDelay = 1;
+</syntaxhighlight>
+=== R ===
+==== rows ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+rows = 3;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== soundCollapse ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundCollapse[] = {'\\A3\\ui_f\\data\\sound\\RscCombo\\soundCollapse', 0.1, 1};
+</syntaxhighlight>
+==== soundExpand ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundExpand[] = {'\\A3\\ui_f\\data\\sound\\RscCombo\\soundExpand', 0.1, 1};
+</syntaxhighlight>
+==== soundSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundSelect[] = {'\\A3\\ui_f\\data\\sound\\RscCombo\\soundSelect', 0.1, 1};
+</syntaxhighlight>
+=== T ===
+==== to ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+to = 2050;
+</syntaxhighlight>
+=== W ===
+==== wholeHeight ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+wholeHeight = 0.24;
+</syntaxhighlight>
+
+{{Cfg ref|end}}
+
+= Default Classes =
+The following classes are part of the export that is generated with <code>"Default" call [[BIS_fnc_exportGUIBaseClasses]]</code>
+{{Informative|In order for the classes below to work you need to have them exported with the function above.}}
+
+== RscClassname==
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+
+[[Category: Dialogs]]

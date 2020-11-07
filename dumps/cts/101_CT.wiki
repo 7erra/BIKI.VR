@@ -1,0 +1,760 @@
+<syntaxhighlight lang="cpp">#define CT_MAP_MAIN 101</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== alphaFadeEndScale ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+alphaFadeEndScale = 0;
+</syntaxhighlight>
+==== alphaFadeStartScale ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+alphaFadeStartScale = 0;
+</syntaxhighlight>
+==== altitudeMapColorHigh ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+altitudeMapColorHigh[] = {1, 0, 0, 0.15};
+</syntaxhighlight>
+==== altitudeMapColorLow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+altitudeMapColorLow[] = {0, 1, 0, 0.15};
+</syntaxhighlight>
+==== altitudeMapColorMid ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+altitudeMapColorMid[] = {1, 1, 0, 0.15};
+</syntaxhighlight>
+==== altitudeMapRange ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+altitudeMapRange = 100;
+</syntaxhighlight>
+==== ActiveMarker ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== B ===
+==== Bunker ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Bush ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== BusStop ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== C ===
+==== colorCountlines ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorCountlines[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorCountlinesWater ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorCountlinesWater[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorForest ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorForest[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorForestBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorForestBorder[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorForestTextured ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorForestTextured[] = {0.624, 0.78, 0.388, 0.25};
+</syntaxhighlight>
+==== colorGrid ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorGrid[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorGridMap ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorGridMap[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorInactive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorInactive[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorLevels ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorLevels[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorMainCountlines ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMainCountlines[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorMainCountlinesWater ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMainCountlinesWater[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorMainRoads ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMainRoads[] = {0.9, 0.5, 0.3, 1};
+</syntaxhighlight>
+==== colorMainRoadsFill ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorMainRoadsFill[] = {1, 0.6, 0.4, 1};
+</syntaxhighlight>
+==== colorNames ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorNames[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorOutside ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorOutside[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorPowerLines ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorPowerLines[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorRailWay ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorRailWay[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorRoads ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorRoads[] = {0.7, 0.7, 0.7, 1};
+</syntaxhighlight>
+==== colorRoadsFill ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorRoadsFill[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorRocks ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorRocks[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorRocksBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorRocksBorder[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorSea ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSea[] = {0, 0, 0, 0};
+</syntaxhighlight>
+==== colorTracks ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTracks[] = {0.84, 0.76, 0.65, 0.15};
+</syntaxhighlight>
+==== colorTracksFill ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTracksFill[] = {0.84, 0.76, 0.65, 1};
+</syntaxhighlight>
+==== colorTrails ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTrails[] = {0.84, 0.76, 0.65, 0.15};
+</syntaxhighlight>
+==== colorTrailsFill ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorTrailsFill[] = {0.84, 0.76, 0.65, 0.65};
+</syntaxhighlight>
+==== compassPos ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+compassPos[] = {-0.04, 0};
+</syntaxhighlight>
+==== compassSize ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+compassSize[] = {0.08, 0.08};
+</syntaxhighlight>
+==== Chapel ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Church ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Command ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Cross ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== CustomMark ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== D ===
+==== drawObjects ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+drawObjects = 0;
+</syntaxhighlight>
+==== drawShaded ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+drawShaded = 0.25;
+</syntaxhighlight>
+=== F ===
+==== fontGrid ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontGrid = "TahomaB";
+</syntaxhighlight>
+==== fontInfo ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontInfo = "RobotoCondensed";
+</syntaxhighlight>
+==== fontLabel ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontLabel = "RobotoCondensed";
+</syntaxhighlight>
+==== fontLevel ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontLevel = "TahomaB";
+</syntaxhighlight>
+==== fontNames ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontNames = "RobotoCondensed";
+</syntaxhighlight>
+==== fontUnits ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontUnits = "TahomaB";
+</syntaxhighlight>
+==== Fortress ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Fountain ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Fuelstation ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== H ===
+==== hCollapsed ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+hCollapsed = "safezoneH - 2 * 							(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25)";
+</syntaxhighlight>
+==== Hospital ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== I ===
+==== iconCamera ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+iconCamera = "\A3\ui_f\data\GUI\Rsc\RscDisplayMissionEditor\iconCamera_ca.paa";
+</syntaxhighlight>
+==== iconCameraColor ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+iconCameraColor[] = {0.8, 0.6, 0.05, 0.8};
+</syntaxhighlight>
+==== iconCameraSize ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+iconCameraSize = 24;
+</syntaxhighlight>
+==== idcMarkerColor ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+idcMarkerColor = -1;
+</syntaxhighlight>
+==== idcMarkerIcon ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+idcMarkerIcon = -1;
+</syntaxhighlight>
+=== L ===
+==== Legend ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Lighthouse ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== LineMarker ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== M ===
+==== maxSatelliteAlpha ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+maxSatelliteAlpha = 0;
+</syntaxhighlight>
+==== moveOnEdges ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+moveOnEdges = 1;
+</syntaxhighlight>
+=== N ===
+==== NAME ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== P ===
+==== power ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== powersolar ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== powerwave ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== powerwind ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== ptsPerSquareCLn ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareCLn = 0;
+</syntaxhighlight>
+==== ptsPerSquareCost ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareCost = 0;
+</syntaxhighlight>
+==== ptsPerSquareExp ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareExp = 0;
+</syntaxhighlight>
+==== ptsPerSquareFor ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareFor = 0;
+</syntaxhighlight>
+==== ptsPerSquareForEdge ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareForEdge = 0;
+</syntaxhighlight>
+==== ptsPerSquareForLod1 ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareForLod1 = 4;
+</syntaxhighlight>
+==== ptsPerSquareForLod2 ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareForLod2 = 1;
+</syntaxhighlight>
+==== ptsPerSquareMainRoad ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareMainRoad = 6;
+</syntaxhighlight>
+==== ptsPerSquareMainRoadSimple ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareMainRoadSimple = 1;
+</syntaxhighlight>
+==== ptsPerSquareObj ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareObj = 0;
+</syntaxhighlight>
+==== ptsPerSquareObjLod1 ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareObjLod1 = 2;
+</syntaxhighlight>
+==== ptsPerSquareRoad ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareRoad = 0;
+</syntaxhighlight>
+==== ptsPerSquareRoadSimple ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareRoadSimple = 1;
+</syntaxhighlight>
+==== ptsPerSquareSea ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareSea = 0;
+</syntaxhighlight>
+==== ptsPerSquareTxt ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ptsPerSquareTxt = 0;
+</syntaxhighlight>
+=== Q ===
+==== Quay ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== R ===
+==== runwayFont ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+runwayFont = "LCD14";
+</syntaxhighlight>
+==== Rock ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Ruin ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== S ===
+==== scaleDefault ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scaleDefault = 0.16;
+</syntaxhighlight>
+==== scaleMax ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scaleMax = 1;
+</syntaxhighlight>
+==== scaleMin ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scaleMin = 0.001;
+</syntaxhighlight>
+==== shadedSea ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadedSea = 0.3;
+</syntaxhighlight>
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== showMarkers ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+showMarkers = 1;
+</syntaxhighlight>
+==== sizeExGrid ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExGrid = 0;
+</syntaxhighlight>
+==== sizeExInfo ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExInfo = 0;
+</syntaxhighlight>
+==== sizeExLabel ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExLabel = 0;
+</syntaxhighlight>
+==== sizeExLevel ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExLevel = 0;
+</syntaxhighlight>
+==== sizeExNames ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExNames = 0;
+</syntaxhighlight>
+==== sizeExUnits ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExUnits = 0;
+</syntaxhighlight>
+==== speedCoefSpeed0 ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+speedCoefSpeed0 = 500;
+</syntaxhighlight>
+==== speedCoefSpeedMax ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+speedCoefSpeedMax = 30;
+</syntaxhighlight>
+==== stickX ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+stickX[] = {0, ['Gamma', 0, 0]};
+</syntaxhighlight>
+==== stickY ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+stickY[] = {0, ['Gamma', 0, 0]};
+</syntaxhighlight>
+==== Shipwreck ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== ShowCountourInterval ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+ShowCountourInterval = 0;
+</syntaxhighlight>
+==== SmallTree ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Stack ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== T ===
+==== textureComboBoxColor ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textureComboBoxColor = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== textureCompass ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textureCompass = "\A3\Ui_f\data\IGUI\RscCustomInfo\north_ca.paa";
+</syntaxhighlight>
+==== Task ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Tourism ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Transmitter ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Tree ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== V ===
+==== ViewTower ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== W ===
+==== widthPowerLines ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+widthPowerLines = 6;
+</syntaxhighlight>
+==== widthRailWay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+widthRailWay = 4;
+</syntaxhighlight>
+==== Watertower ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== Waypoint ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== WaypointCompleted ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== Y ===
+==== yCollapsed ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+yCollapsed = "1 * 							(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + 		(safezoneY)";
+</syntaxhighlight>
+{{Cfg ref|end}}

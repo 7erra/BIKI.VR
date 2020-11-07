@@ -1,0 +1,123 @@
+<syntaxhighlight lang="cpp">#define CT_OBJECT_ZOOM 81</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== AnimationSources ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== D ===
+==== direction ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+direction[] = {0, 1, 1};
+</syntaxhighlight>
+=== E ===
+==== enableZoom ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+enableZoom = 1;
+</syntaxhighlight>
+=== I ===
+==== inBack ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+inBack = 0;
+</syntaxhighlight>
+=== M ===
+==== model ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+model = "\a3\Ui_f\objects\Compass.p3d";
+</syntaxhighlight>
+=== P ===
+==== position ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+position[] = {0, 0, 0.15};
+</syntaxhighlight>
+==== positionBack ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+positionBack[] = {0.0475, -0.0575, 0.225};
+</syntaxhighlight>
+=== S ===
+==== scale ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scale = 2;
+</syntaxhighlight>
+==== selectionDate1 ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionDate1 = "date1";
+</syntaxhighlight>
+==== selectionDate2 ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionDate2 = "date2";
+</syntaxhighlight>
+==== selectionDay ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionDay = "day";
+</syntaxhighlight>
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+=== U ===
+==== up ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+up[] = {0, 1, 0};
+</syntaxhighlight>
+=== X ===
+==== xBack ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+xBack = "26 * 					(			((safezoneW / safezoneH) min 1.2) / 40) + 		(safezoneX + (safezoneW - 					((safezoneW / safezoneH) min 1.2))/2)";
+</syntaxhighlight>
+=== Y ===
+==== yBack ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+yBack = "13 * 					(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + 		(safezoneY + (safezoneH - 					(			((safezoneW / safezoneH) min 1.2) / 1.2))/2)";
+</syntaxhighlight>
+=== Z ===
+==== z ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+z = 1;
+</syntaxhighlight>
+==== zBack ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+zBack = 2;
+</syntaxhighlight>
+==== zoomDuration ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+zoomDuration = 0.5;
+</syntaxhighlight>
+{{Cfg ref|end}}

@@ -1,0 +1,226 @@
+<syntaxhighlight lang="cpp">#define CT_OBJECT 80</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== B ===
+==== boneHead ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneHead = "head";
+</syntaxhighlight>
+==== boneLEye ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneLEye = "l_eye";
+</syntaxhighlight>
+==== boneLEyelidDown ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneLEyelidDown = "eye_lwl";
+</syntaxhighlight>
+==== boneLEyelidUp ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneLEyelidUp = "eye_upl";
+</syntaxhighlight>
+==== boneLPupil ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneLPupil = "l_pupila";
+</syntaxhighlight>
+==== boneREye ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneREye = "r_eye";
+</syntaxhighlight>
+==== boneREyelidDown ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneREyelidDown = "eye_lwr";
+</syntaxhighlight>
+==== boneREyelidUp ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneREyelidUp = "eye_upr";
+</syntaxhighlight>
+==== boneRPupil ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+boneRPupil = "r_pupila";
+</syntaxhighlight>
+=== D ===
+==== direction ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+direction[] = {1, 0, 0};
+</syntaxhighlight>
+=== E ===
+==== enableZoom ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+enableZoom = 1;
+</syntaxhighlight>
+=== F ===
+==== faceType ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+faceType = "Man_A3";
+</syntaxhighlight>
+=== I ===
+==== inBack ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+inBack = "False";
+</syntaxhighlight>
+=== M ===
+==== model ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+model = "\A3\ui_f\objects\Compass.p3d";
+</syntaxhighlight>
+==== modelWoman ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+modelWoman = "\A3\ui_f\objects\face_preview";
+</syntaxhighlight>
+=== S ===
+==== scale ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+scale = 0.35;
+</syntaxhighlight>
+==== selectionArrow ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionArrow = "";
+</syntaxhighlight>
+==== selectionEyelid ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionEyelid = "eyelids";
+</syntaxhighlight>
+==== selectionGlasses ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionGlasses = "eyelids";
+</syntaxhighlight>
+==== selectionLBrow ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionLBrow = "lBrow";
+</syntaxhighlight>
+==== selectionLip ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionLip = "LLip";
+</syntaxhighlight>
+==== selectionLMouth ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionLMouth = "lMouth";
+</syntaxhighlight>
+==== selectionMBrow ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionMBrow = "mBrow";
+</syntaxhighlight>
+==== selectionMMouth ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionMMouth = "mMouth";
+</syntaxhighlight>
+==== selectionPersonality ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionPersonality = "personality";
+</syntaxhighlight>
+==== selectionRBrow ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionRBrow = "rBrow";
+</syntaxhighlight>
+==== selectionRMouth ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+selectionRMouth = "rMouth";
+</syntaxhighlight>
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+=== U ===
+==== up ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+up[] = {0, 1, 0};
+</syntaxhighlight>
+=== W ===
+==== waitForLoad ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+waitForLoad = 0;
+</syntaxhighlight>
+=== X ===
+==== xBack ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+xBack = 0.6;
+</syntaxhighlight>
+=== Y ===
+==== yBack ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+yBack = 0.5;
+</syntaxhighlight>
+=== Z ===
+==== z ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+z = 0.2;
+</syntaxhighlight>
+==== zBack ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+zBack = 0.1;
+</syntaxhighlight>
+==== zoomDuration ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+zoomDuration = 1;
+</syntaxhighlight>
+{{Cfg ref|end}}

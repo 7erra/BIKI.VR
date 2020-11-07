@@ -1,0 +1,80 @@
+<syntaxhighlight lang="cpp">#define CT_XCOMBO 44</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== C ===
+==== colorBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBorder[] = {1, 0, 1, 1};
+</syntaxhighlight>
+==== colorDisabledBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorDisabledBorder[] = {0, 1, 1, 1};
+</syntaxhighlight>
+==== colorSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorSelect2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelect2[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorSelectBackground2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBackground2[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSelectBorder ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSelectBorder[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== L ===
+==== List ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== soundCollapse ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundCollapse[] = {'\\A3\\ui_f\\data\\sound\\RscCombo\\soundCollapse', 0.1, 1};
+</syntaxhighlight>
+==== soundExpand ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundExpand[] = {'\\A3\\ui_f\\data\\sound\\RscCombo\\soundExpand', 0.1, 1};
+</syntaxhighlight>
+==== soundSelect ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundSelect[] = {'\\A3\\ui_f\\data\\sound\\RscCombo\\soundSelect', 0.1, 1};
+</syntaxhighlight>
+=== T ===
+==== Title ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+{{Cfg ref|end}}

@@ -1,0 +1,11 @@
+<syntaxhighlight lang="cpp">#define CT_LINEBREAK 98</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+{{Cfg ref|end}}

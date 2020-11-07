@@ -1,0 +1,169 @@
+{
+    "model": {
+        "values": [
+            "\\a3\\Ui_f\\objects\\Compass.p3d",
+            "\\a3\\Missions_F_Oldman\\Systems\\UI\\Objects\\WatchDummy.p3d"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "scale": {
+        "values": [
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "z": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "xBack": {
+        "values": [
+            "26 * \t\t\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 40) + \t\t(safezoneX + (safezoneW - \t\t\t\t\t((safezoneW / safezoneH) min 1.2))/2)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "yBack": {
+        "values": [
+            "13 * \t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + \t\t(safezoneY + (safezoneH - \t\t\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2))/2)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "zBack": {
+        "values": [
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "enableZoom": {
+        "values": [
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "zoomDuration": {
+        "values": [
+            0.5
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "inBack": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "direction": {
+        "values": [
+            [
+                0,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "up": {
+        "values": [
+            [
+                0,
+                1,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "position": {
+        "values": [
+            [
+                0,
+                0,
+                0.15
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "selectionDate1": {
+        "values": [
+            "date1"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionDate2": {
+        "values": [
+            "date2"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectionDay": {
+        "values": [
+            "day"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "positionBack": {
+        "values": [
+            [
+                0.0475,
+                -0.0575,
+                0.225
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "AnimationSources": {
+        "values": [
+            "AnimationSources"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

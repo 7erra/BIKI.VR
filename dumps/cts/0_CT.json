@@ -1,0 +1,323 @@
+{
+    "fixedWidth": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shadow": {
+        "values": [
+            1,
+            0,
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "colorShadow": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "linespacing": {
+        "values": [
+            1,
+            0,
+            0.01,
+            1.8
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.8
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "autoplay": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "loops": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "tileW": {
+        "values": [
+            1,
+            "8 / (32 * pixelW)",
+            10
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "tileH": {
+        "values": [
+            1,
+            "4 / (32 * pixelH)",
+            2
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "backgroundType": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "background": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "align": {
+        "values": [
+            "bottom",
+            "top"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorbackgroundx": {
+        "values": [
+            [
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_A',0.8])"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "sortUp": {
+        "values": [
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_up_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "sortDown": {
+        "values": [
+            "\\a3\\ui_f\\data\\gui\\rsc\\rscdisplaymultiplayer\\arrow_down_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "angle": {
+        "values": [
+            180,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "lines": {
+        "values": [
+            3
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "idcx": {
+        "values": [
+            900,
+            901,
+            902,
+            903,
+            904,
+            905,
+            918,
+            919,
+            920
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "widgetLineWidth": {
+        "values": [
+            10
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "textSave": {
+        "values": [
+            "Save As"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textLoad": {
+        "values": [
+            "Open"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "textMerge": {
+        "values": [
+            "Merge"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                0.23,
+                0.35,
+                0.42,
+                0.9
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                0.4
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "optionPicture": {
+        "values": [
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_ReducedDamage_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_AILevel_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_AISkill_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_AIPrecision_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_GroupIndicators_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_FriendlyTags_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_EnemyTags_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_DetectedMines_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_Commands_co.paa",
+            "\\A3\\Ui_f\\data\\GUI\\Rsc\\RscDisplayGameOptions\\Diff_Waypoints_co.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "optionDescription": {
+        "values": [
+            "Decreases damage dealt to player and members of his group.",
+            "Presets for changing skill and precision of all AI controlled units.",
+            "Set of abilities determining the combat performance of AI controlled units.",
+            "Weapon handling skill and aiming precision of AI controlled units.",
+            "Shows indication icons on units in player's group.",
+            "Friendly unit identification. Works only when the player aims at a unit.",
+            "Enemy unit identification. Works only when the player aims at a unit.",
+            "Shows icons indicating exact positions of mines.",
+            "Displays command icons like target markers, get in command and others.",
+            "Manages visibility of waypoint markers."
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "centerU": {
+        "values": [
+            0.5
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "centerV": {
+        "values": [
+            0.5
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

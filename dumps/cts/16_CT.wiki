@@ -1,0 +1,253 @@
+<syntaxhighlight lang="cpp">#define CT_SHORTCUTBUTTON 16</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== action ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+action = "";
+</syntaxhighlight>
+==== animTextureDefault ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTextureDefault = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== animTextureDisabled ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTextureDisabled = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== animTextureFocused ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTextureFocused = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== animTextureNormal ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTextureNormal = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== animTextureNoShortcut ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTextureNoShortcut = "\x\cba\addons\ui\flexiMenu\data\rose\normal_circle.paa";
+</syntaxhighlight>
+==== animTextureOver ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTextureOver = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== animTexturePressed ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+animTexturePressed = "#(argb,8,8,3)color(1,1,1,1)";
+</syntaxhighlight>
+==== Attributes ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+==== AttributesImage ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== C ===
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== color2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color2[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== color2Secondary ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color2Secondary[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorBackground2 ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackground2[] = {0.75, 0.75, 0.75, 1};
+</syntaxhighlight>
+==== colorBackgroundActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackgroundActive[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorBackgroundFocused ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorBackgroundFocused[] = {1, 1, 1, 1};
+</syntaxhighlight>
+==== colorDisabledSecondary ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorDisabledSecondary[] = {1, 1, 1, 0.25};
+</syntaxhighlight>
+==== colorFocused ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFocused[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorFocusedSecondary ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorFocusedSecondary[] = {0, 0, 0, 1};
+</syntaxhighlight>
+==== colorSecondary ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorSecondary[] = {1, 1, 1, 1};
+</syntaxhighlight>
+=== F ===
+==== fontSecondary ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fontSecondary = "PuristaLight";
+</syntaxhighlight>
+=== H ===
+==== HitZone ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== K ===
+==== KeyHints ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== P ===
+==== period ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+period = 1.2;
+</syntaxhighlight>
+==== periodFocus ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+periodFocus = 1.2;
+</syntaxhighlight>
+==== periodOver ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+periodOver = 1.2;
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 0;
+</syntaxhighlight>
+==== shortcuts ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shortcuts[] = {'0x00050000 + 1'};
+</syntaxhighlight>
+==== shpw ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shpw = 0;
+</syntaxhighlight>
+==== size ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+size = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+</syntaxhighlight>
+==== sizeExSecondary ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sizeExSecondary = "(			(			(			((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)";
+</syntaxhighlight>
+==== soundClick ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundClick[] = {'\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundClick', 0.09, 1};
+</syntaxhighlight>
+==== soundEnter ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEnter[] = {'\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundEnter', 0.09, 1};
+</syntaxhighlight>
+==== soundEscape ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundEscape[] = {'\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundEscape', 0.09, 1};
+</syntaxhighlight>
+==== soundPush ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+soundPush[] = {'\\A3\\ui_f\\data\\sound\\RscButtonMenu\\soundPush', 0.09, 1};
+</syntaxhighlight>
+==== ShortcutPos ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== T ===
+==== textSecondary ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textSecondary = "";
+</syntaxhighlight>
+==== textureNoShortcut ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textureNoShortcut = "#(argb,8,8,3)color(0,0,0,0)";
+</syntaxhighlight>
+==== TextPos ====
+;Type: [[TokenNameValueTypes|Class]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+
+</syntaxhighlight>
+=== U ===
+==== url ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+url = "";
+</syntaxhighlight>
+{{Cfg ref|end}}

@@ -1,0 +1,127 @@
+{
+    "lineSpacing": {
+        "values": [
+            "0.1 * ((((safezoneW / safezoneH) min 1.2)/ 1.2)/ 25)",
+            "0.2 * ((((safezoneW / safezoneH) min 1.2)/ 1.2)/ 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "firstIDC": {
+        "values": [
+            1000,
+            70000
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "lastIDC": {
+        "values": [
+            "(1000 + 3 * 23)",
+            71000
+        ],
+        "types": [
+            "String",
+            "Number"
+        ]
+    },
+    "RowTemplate": {
+        "values": [
+            "RowTemplate"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "rowHeight": {
+        "values": [
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "2.1 * ((((safezoneW / safezoneH) min 1.2)/ 1.2)/ 25)",
+            "1 * ((((safezoneW / safezoneH) min 1.2)/ 1.2)/ 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "headerHeight": {
+        "values": [
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)",
+            "1.1 * ((((safezoneW / safezoneH) min 1.2)/ 1.2)/ 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "selectedRowColorFrom": {
+        "values": [
+            [
+                0.7,
+                0.85,
+                1,
+                0.25
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "selectedRowColorTo": {
+        "values": [
+            [
+                0.7,
+                0.85,
+                1,
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "selectedRowAnimLength": {
+        "values": [
+            1.2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "VScrollBar": {
+        "values": [
+            "VScrollBar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "HScrollBar": {
+        "values": [
+            "HScrollBar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "HeaderTemplate": {
+        "values": [
+            "HeaderTemplate"
+        ],
+        "types": [
+            "Class"
+        ]
+    }
+}

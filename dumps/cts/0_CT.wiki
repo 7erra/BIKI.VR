@@ -1,0 +1,180 @@
+<syntaxhighlight lang="cpp">#define CT_STATIC 0</syntaxhighlight>
+= Introduction =
+Static controls represent exactly that: static data. Static means there is NO possible user interaction. CT_STATIC is primarily used for texts, dialog backgrounds, pictures (and video). The constant ''type'' property for these controls usually is <tt>CT_STATIC</tt>.
+
+= Alphabetical Order =
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== align ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+align = "bottom";
+</syntaxhighlight>
+==== angle ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+angle = 180;
+</syntaxhighlight>
+==== autoplay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+autoplay = 0;
+</syntaxhighlight>
+=== B ===
+==== background ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+background = 1;
+</syntaxhighlight>
+==== backgroundType ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+backgroundType = 0;
+</syntaxhighlight>
+=== C ===
+==== centerU ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+centerU = 0.5;
+</syntaxhighlight>
+==== centerV ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+centerV = 0.5;
+</syntaxhighlight>
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+color[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorActive[] = {0.23, 0.35, 0.42, 0.9};
+</syntaxhighlight>
+==== colorbackgroundx ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorbackgroundx[] = {"(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])", "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])", "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])", "(profilenamespace getvariable ['IGUI_BCG_RGB_A',0.8])"};
+</syntaxhighlight>
+==== colorShadow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+colorShadow[] = {0, 0, 0, 0.5};
+</syntaxhighlight>
+=== F ===
+==== fixedWidth ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+fixedWidth = 0;
+</syntaxhighlight>
+=== I ===
+==== idcx ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+idcx = 900;
+</syntaxhighlight>
+=== L ===
+==== lines ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+lines = 3;
+</syntaxhighlight>
+==== linespacing ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+linespacing = 1;
+</syntaxhighlight>
+==== loops ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+loops = 0;
+</syntaxhighlight>
+=== O ===
+==== optionDescription ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+optionDescription = "Decreases damage dealt to player and members of his group.";
+</syntaxhighlight>
+==== optionPicture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+optionPicture = "\A3\Ui_f\data\GUI\Rsc\RscDisplayGameOptions\Diff_ReducedDamage_co.paa";
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+shadow = 1;
+</syntaxhighlight>
+==== sortDown ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sortDown = "\a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\arrow_down_ca.paa";
+</syntaxhighlight>
+==== sortUp ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+sortUp = "\a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\arrow_up_ca.paa";
+</syntaxhighlight>
+=== T ===
+==== textLoad ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textLoad = "Open";
+</syntaxhighlight>
+==== textMerge ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textMerge = "Merge";
+</syntaxhighlight>
+==== textSave ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+textSave = "Save As";
+</syntaxhighlight>
+==== tileH ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+tileH = 1;
+</syntaxhighlight>
+==== tileW ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+tileW = 1;
+</syntaxhighlight>
+=== W ===
+==== widgetLineWidth ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: n/a
+<syntaxhighlight lang="cpp">
+widgetLineWidth = 10;
+</syntaxhighlight>
+{{Cfg ref|end}}

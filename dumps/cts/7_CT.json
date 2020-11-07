@@ -1,0 +1,240 @@
+{
+    "strings": {
+        "values": [
+            [
+                "Disagree"
+            ],
+            [
+                "manual"
+            ],
+            [
+                "UNCHECKED"
+            ],
+            [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            [
+                "Show Unconscious?",
+                "Show Window?",
+                "Hide on Use?"
+            ],
+            [
+                "Off"
+            ],
+            [
+                "#(argb,8,8,3)color(0,0,0,0)"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "checked_strings": {
+        "values": [
+            [
+                "Agree"
+            ],
+            [
+                "auto"
+            ],
+            [
+                "CHECKED"
+            ],
+            [
+                "Alpha",
+                "Bravo",
+                "Charlie",
+                "Delta"
+            ],
+            [
+                "Show Unconscious? Yes",
+                "Show Window? Yes",
+                "Hide on Use? Yes"
+            ],
+            [
+                "On"
+            ],
+            [
+                "#(argb,8,8,3)color(0,0,0,0)"
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelectedBg": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.13])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.54])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.21])",
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "color": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTextSelect": {
+        "values": [
+            [
+                0,
+                0.8,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTextDisable": {
+        "values": [
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorDisable": {
+        "values": [
+            [
+                0.4,
+                0.4,
+                0.4,
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "rows": {
+        "values": [
+            1,
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "columns": {
+        "values": [
+            1,
+            2,
+            3
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "values": {
+        "values": [
+            [
+                1,
+                2,
+                3,
+                4
+            ],
+            [
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    }
+}

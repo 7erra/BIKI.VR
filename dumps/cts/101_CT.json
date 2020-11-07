@@ -1,0 +1,1645 @@
+{
+    "maxSatelliteAlpha": {
+        "values": [
+            0,
+            0.85,
+            "uinamespace getvariable ['RscDisplayStrategicMap_maxSatelliteAlpha',1]",
+            0.75
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "colorLevels": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.286,
+                0.177,
+                0.094,
+                0.5
+            ],
+            [
+                0.3,
+                0.2,
+                0.1,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSea": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.467,
+                0.631,
+                0.851,
+                0.5
+            ],
+            [
+                0.467,
+                0.631,
+                0.851,
+                0.25
+            ],
+            [
+                0.4,
+                0.6,
+                0.8,
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                0.4
+            ],
+            [
+                0.3,
+                0.75,
+                1,
+                0.15
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorForest": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.624,
+                0.78,
+                0.388,
+                0.5
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                0.6,
+                0.8,
+                0.4,
+                0.5
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
+                0.7
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
+                0.3
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorRocks": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                0.3
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorCountlines": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.572,
+                0.354,
+                0.188,
+                0.25
+            ],
+            [
+                0.6,
+                0.4,
+                0.2,
+                0.3
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
+                0.2
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMainCountlines": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.572,
+                0.354,
+                0.188,
+                0.5
+            ],
+            [
+                0.6,
+                0.4,
+                0.2,
+                0.5
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
+                0.6
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorCountlinesWater": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.491,
+                0.577,
+                0.702,
+                0.3
+            ],
+            [
+                0.5,
+                0.6,
+                0.7,
+                0.3
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.4
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMainCountlinesWater": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.491,
+                0.577,
+                0.702,
+                0.6
+            ],
+            [
+                0.5,
+                0.6,
+                0.7,
+                0.6
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.7
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPowerLines": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.5
+            ],
+            [
+                1,
+                0.5,
+                0.5,
+                0.7
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorRailWay": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.8,
+                0.2,
+                0,
+                1
+            ],
+            [
+                1,
+                0,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorForestBorder": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.6,
+                0.8,
+                0.4,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])",
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorRocksBorder": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorNames": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.9
+            ],
+            [
+                1.1,
+                0.1,
+                1.1,
+                0.9
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorInactive": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                1,
+                1,
+                1,
+                0.5
+            ],
+            [
+                1,
+                1,
+                0,
+                0.5
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorOutside": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0,
+                0,
+                0,
+                1
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "uinamespace getvariable ['RscDisplayStrategicMap_colorOutside_R',0]",
+                "uinamespace getvariable ['RscDisplayStrategicMap_colorOutside_G',0]",
+                "uinamespace getvariable ['RscDisplayStrategicMap_colorOutside_B',0]",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorGrid": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.6
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.3
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorGridMap": {
+        "values": [
+            [
+                0,
+                0,
+                0,
+                0
+            ],
+            [
+                0.1,
+                0.1,
+                0.1,
+                0.6
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.2
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "ShowCountourInterval": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shadow": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "alphaFadeStartScale": {
+        "values": [
+            0,
+            2,
+            100,
+            0.1,
+            10
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "alphaFadeEndScale": {
+        "values": [
+            0,
+            2,
+            100,
+            0.01,
+            10
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "sizeExLabel": {
+        "values": [
+            0,
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)",
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 1)",
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.5",
+            0.05
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "sizeExGrid": {
+        "values": [
+            0,
+            0.02,
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.5"
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "sizeExUnits": {
+        "values": [
+            0,
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)",
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.5",
+            0.05
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "sizeExNames": {
+        "values": [
+            0,
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8) * 2",
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.5",
+            0.05
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "sizeExInfo": {
+        "values": [
+            0,
+            "(\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.8)",
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.5",
+            0.05
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "sizeExLevel": {
+        "values": [
+            0,
+            0.02,
+            "(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) * 0.5"
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "stickX": {
+        "values": [
+            [
+                0,
+                [
+                    "Gamma",
+                    0,
+                    0
+                ]
+            ],
+            [
+                0.2,
+                [
+                    "Gamma",
+                    1,
+                    1.5
+                ]
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "stickY": {
+        "values": [
+            [
+                0,
+                [
+                    "Gamma",
+                    0,
+                    0
+                ]
+            ],
+            [
+                0.2,
+                [
+                    "Gamma",
+                    1,
+                    1.5
+                ]
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "ptsPerSquareSea": {
+        "values": [
+            0,
+            5,
+            1000
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareTxt": {
+        "values": [
+            0,
+            20,
+            1000,
+            500
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareCLn": {
+        "values": [
+            0,
+            10,
+            1000,
+            200
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareExp": {
+        "values": [
+            0,
+            10,
+            1000
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareCost": {
+        "values": [
+            0,
+            10,
+            1000,
+            200
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareFor": {
+        "values": [
+            0,
+            9,
+            1000,
+            200,
+            15
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareForEdge": {
+        "values": [
+            0,
+            9,
+            1000,
+            200,
+            15
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareRoad": {
+        "values": [
+            0,
+            6,
+            1000,
+            200
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareObj": {
+        "values": [
+            0,
+            9,
+            1000,
+            200,
+            15
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "Task": {
+        "values": [
+            "Task"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "NAME": {
+        "values": [
+            "NAME"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "colorTracks": {
+        "values": [
+            [
+                0.84,
+                0.76,
+                0.65,
+                0.15
+            ],
+            [
+                0.8,
+                0.8,
+                0.7,
+                0.2
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.15
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorRoads": {
+        "values": [
+            [
+                0.7,
+                0.7,
+                0.7,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMainRoads": {
+        "values": [
+            [
+                0.9,
+                0.5,
+                0.3,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                1
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTracksFill": {
+        "values": [
+            [
+                0.84,
+                0.76,
+                0.65,
+                1
+            ],
+            [
+                0.8,
+                0.7,
+                0.7,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.3
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorRoadsFill": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.5
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorMainRoadsFill": {
+        "values": [
+            [
+                1,
+                0.6,
+                0.4,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_R',0])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_G',1])",
+                "(profilenamespace getvariable ['IGUI_TEXT_RGB_B',1])",
+                0.7
+            ],
+            [
+                0,
+                0,
+                0,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "Legend": {
+        "values": [
+            "Legend"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "ActiveMarker": {
+        "values": [
+            "ActiveMarker"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Command": {
+        "values": [
+            "Command"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "CustomMark": {
+        "values": [
+            "CustomMark"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Tree": {
+        "values": [
+            "Tree",
+            "tree"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "SmallTree": {
+        "values": [
+            "SmallTree",
+            "smalltree"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Bush": {
+        "values": [
+            "Bush",
+            "bush"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Church": {
+        "values": [
+            "Church",
+            "church"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Chapel": {
+        "values": [
+            "Chapel"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Cross": {
+        "values": [
+            "Cross"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Rock": {
+        "values": [
+            "Rock",
+            "rock"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Bunker": {
+        "values": [
+            "Bunker"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Fortress": {
+        "values": [
+            "Fortress"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Fountain": {
+        "values": [
+            "Fountain"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "ViewTower": {
+        "values": [
+            "ViewTower"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Lighthouse": {
+        "values": [
+            "Lighthouse",
+            "lighthouse"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Quay": {
+        "values": [
+            "Quay",
+            "quay"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Fuelstation": {
+        "values": [
+            "Fuelstation",
+            "fuelstation",
+            "FuelStation"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Hospital": {
+        "values": [
+            "Hospital",
+            "hospital"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "BusStop": {
+        "values": [
+            "BusStop",
+            "busstop"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "LineMarker": {
+        "values": [
+            "LineMarker"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Transmitter": {
+        "values": [
+            "Transmitter",
+            "transmitter"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Stack": {
+        "values": [
+            "Stack"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Ruin": {
+        "values": [
+            "Ruin"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Tourism": {
+        "values": [
+            "Tourism"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Watertower": {
+        "values": [
+            "Watertower",
+            "watertower"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Waypoint": {
+        "values": [
+            "Waypoint"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "WaypointCompleted": {
+        "values": [
+            "WaypointCompleted"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "moveOnEdges": {
+        "values": [
+            1,
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "scaleDefault": {
+        "values": [
+            0.16,
+            0.1,
+            0.001,
+            "uinamespace getvariable ['RscDisplayORBAT_scaleDefault',0.005]",
+            "uinamespace getvariable ['RscDisplayStrategicMap_scaleDefault',0.3]"
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "colorTrails": {
+        "values": [
+            [
+                0.84,
+                0.76,
+                0.65,
+                0.15
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorTrailsFill": {
+        "values": [
+            [
+                0.84,
+                0.76,
+                0.65,
+                0.65
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "widthRailWay": {
+        "values": [
+            4
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "fontLabel": {
+        "values": [
+            "RobotoCondensed",
+            "RobotoCondensedLight"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "fontGrid": {
+        "values": [
+            "TahomaB"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "fontUnits": {
+        "values": [
+            "TahomaB"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "fontNames": {
+        "values": [
+            "RobotoCondensed"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "fontInfo": {
+        "values": [
+            "RobotoCondensed",
+            "RobotoCondensedLight"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "fontLevel": {
+        "values": [
+            "TahomaB"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "idcMarkerColor": {
+        "values": [
+            -1,
+            1090
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "idcMarkerIcon": {
+        "values": [
+            -1,
+            1091
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "textureComboBoxColor": {
+        "values": [
+            "#(argb,8,8,3)color(1,1,1,1)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "showMarkers": {
+        "values": [
+            1,
+            "true"
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "power": {
+        "values": [
+            "power",
+            "Power"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "powersolar": {
+        "values": [
+            "powersolar",
+            "PowerSolar"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "powerwave": {
+        "values": [
+            "powerwave",
+            "PowerWave"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "powerwind": {
+        "values": [
+            "powerwind",
+            "PowerWind"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "Shipwreck": {
+        "values": [
+            "Shipwreck",
+            "shipwreck"
+        ],
+        "types": [
+            "Class"
+        ]
+    },
+    "scaleMin": {
+        "values": [
+            0.001,
+            0.0005,
+            "uinamespace getvariable ['RscDisplayORBAT_scaleMin',0.005]",
+            "uinamespace getvariable ['RscDisplayStrategicMap_scaleMin',0.3]",
+            0.0001
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "scaleMax": {
+        "values": [
+            1,
+            0.002,
+            "uinamespace getvariable ['RscDisplayORBAT_scaleMax',0.02]",
+            "uinamespace getvariable ['RscDisplayStrategicMap_scaleMax',0.3]",
+            0.001
+        ],
+        "types": [
+            "Number",
+            "String"
+        ]
+    },
+    "iconCamera": {
+        "values": [
+            "\\A3\\ui_f\\data\\GUI\\Rsc\\RscDisplayMissionEditor\\iconCamera_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "iconCameraColor": {
+        "values": [
+            [
+                0.8,
+                0.6,
+                0.05,
+                0.8
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "iconCameraSize": {
+        "values": [
+            24
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "yCollapsed": {
+        "values": [
+            "1 * \t\t\t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25) + \t\t(safezoneY)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "hCollapsed": {
+        "values": [
+            "safezoneH - 2 * \t\t\t\t\t\t\t(\t\t\t(\t\t\t((safezoneW / safezoneH) min 1.2) / 1.2) / 25)"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "drawObjects": {
+        "values": [
+            0
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareForLod1": {
+        "values": [
+            4
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareForLod2": {
+        "values": [
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareMainRoad": {
+        "values": [
+            6
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareRoadSimple": {
+        "values": [
+            1,
+            0.01
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "ptsPerSquareMainRoadSimple": {
+        "values": [
+            1,
+            0.01
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "drawShaded": {
+        "values": [
+            0.25,
+            0.1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "shadedSea": {
+        "values": [
+            0.3
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "runwayFont": {
+        "values": [
+            "LCD14"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "colorForestTextured": {
+        "values": [
+            [
+                0.624,
+                0.78,
+                0.388,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "ptsPerSquareObjLod1": {
+        "values": [
+            2
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "textureCompass": {
+        "values": [
+            "\\A3\\Ui_f\\data\\IGUI\\RscCustomInfo\\north_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "compassPos": {
+        "values": [
+            [
+                -0.04,
+                0
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "compassSize": {
+        "values": [
+            [
+                0.08,
+                0.08
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "altitudeMapRange": {
+        "values": [
+            100
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "altitudeMapColorLow": {
+        "values": [
+            [
+                0,
+                1,
+                0,
+                0.15
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "altitudeMapColorHigh": {
+        "values": [
+            [
+                1,
+                0,
+                0,
+                0.15
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "altitudeMapColorMid": {
+        "values": [
+            [
+                1,
+                1,
+                0,
+                0.15
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "speedCoefSpeed0": {
+        "values": [
+            500
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "speedCoefSpeedMax": {
+        "values": [
+            30
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "widthPowerLines": {
+        "values": [
+            6
+        ],
+        "types": [
+            "Number"
+        ]
+    }
+}

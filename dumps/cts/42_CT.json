@@ -1,0 +1,215 @@
+{
+    "color": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.6
+            ],
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorActive": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorSelect": {
+        "values": [
+            [
+                0.95,
+                0.95,
+                0.95,
+                1
+            ],
+            [
+                1,
+                0.5,
+                0,
+                1
+            ],
+            [
+                "(profilenamespace getvariable ['GUI_BCG_RGB_R',0.77])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_G',0.51])",
+                "(profilenamespace getvariable ['GUI_BCG_RGB_B',0.08])",
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "soundSelect": {
+        "values": [
+            [
+                "\\A3\\ui_f\\data\\sound\\RscListbox\\soundSelect",
+                0.09,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPicture": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRight": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightSelected": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                1
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "colorPictureRightDisabled": {
+        "values": [
+            [
+                1,
+                1,
+                1,
+                0.25
+            ]
+        ],
+        "types": [
+            "Array"
+        ]
+    },
+    "shadow": {
+        "values": [
+            2,
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "arrowEmpty": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\arrowEmpty_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\arrowEmpty_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "arrowFull": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\arrowFull_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\arrowFull_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "border": {
+        "values": [
+            "\\A3\\ui_f\\data\\gui\\cfg\\slider\\border_ca.paa",
+            "\\a3\\3DEN\\Data\\Controls\\CtrlXSlider\\border_ca.paa"
+        ],
+        "types": [
+            "String"
+        ]
+    },
+    "cycle": {
+        "values": [
+            0,
+            1
+        ],
+        "types": [
+            "Number"
+        ]
+    },
+    "Items": {
+        "values": [
+            "Items"
+        ],
+        "types": [
+            "Class"
+        ]
+    }
+}

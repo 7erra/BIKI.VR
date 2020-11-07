@@ -1,0 +1,329 @@
+= Introduction =
+Static controls represent exactly that: static data. Static means there is NO possible user interaction. CT_STATIC is primarily used for texts, dialog backgrounds, pictures (and videos). The constant ''type'' property for these controls usually is <tt>CT_STATIC</tt>.
+
+= Alphabetical Order =
+{{Informative|TokenNames common to most controls, such as x, y, w, h, text, idc... can be found [[Arma:_GUI_Configuration#Common_Properties|'''here''']].}}
+<syntaxhighlight lang="cpp">#define CT_STATIC 0</syntaxhighlight>
+{{Cfg ref|start}}
+{{Cfg ref|abc}}
+=== A ===
+==== align ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Alignment of text. Values can be "left", "center" or "right".
+<syntaxhighlight lang="cpp">
+align = "center";
+</syntaxhighlight>
+==== angle ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Rotation of the image. See [[ctrlSetAngle]].
+<syntaxhighlight lang="cpp">
+angle = 180;
+</syntaxhighlight>
+==== autoplay ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Used on video controls. 1 means that the video starts playing as soon as the UI is opened.
+<syntaxhighlight lang="cpp">
+autoplay = 0;
+</syntaxhighlight>
+=== B ===
+==== background ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+background = 1;
+</syntaxhighlight>
+==== backgroundType ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+backgroundType = 0;
+</syntaxhighlight>
+=== C ===
+==== centerU ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Sets the horizontal center for the rotation of images with ST_PICTURE controls. 0 is left border of the control, 1 is right border. See also: [[ctrlSetAngle]].
+<syntaxhighlight lang="cpp">
+centerU = 0.5;
+</syntaxhighlight>
+==== centerV ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Sets the vertical center for the rotation of images with ST_PICTURE controls. 0 is top border of the control, 1 is bottom border. See also: [[ctrlSetAngle]].
+<syntaxhighlight lang="cpp">
+centerV = 0.5;
+</syntaxhighlight>
+==== color ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Unknown. Most likely without function.
+<syntaxhighlight lang="cpp">
+color[] = {0.95, 0.95, 0.95, 1};
+</syntaxhighlight>
+==== colorActive ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Unknown. Not applicable for this type as it can not be active.
+<syntaxhighlight lang="cpp">
+colorActive[] = {0.23, 0.35, 0.42, 0.9};
+</syntaxhighlight>
+==== colorbackgroundx ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+colorbackgroundx[] = {"(profilenamespace getvariable ['IGUI_BCG_RGB_R',0])", "(profilenamespace getvariable ['IGUI_BCG_RGB_G',1])", "(profilenamespace getvariable ['IGUI_BCG_RGB_B',1])", "(profilenamespace getvariable ['IGUI_BCG_RGB_A',0.8])"};
+</syntaxhighlight>
+==== colorShadow ====
+;Type: [[TokenNameValueTypes|Array]]
+;Description: Color of the shadow of the text.
+<syntaxhighlight lang="cpp">
+colorShadow[] = {0, 0, 0, 0.5};
+</syntaxhighlight>
+=== F ===
+==== fixedWidth ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Makes normal text like "LALALA" appear like "L A L A L A".
+<syntaxhighlight lang="cpp">
+fixedWidth = 1;
+</syntaxhighlight>
+=== I ===
+==== idcx ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+idcx = 900;
+</syntaxhighlight>
+=== L ===
+==== lines ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+lines = 3;
+</syntaxhighlight>
+==== linespacing ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Space between lines, required if the style was set to ST_MULTI.
+<syntaxhighlight lang="cpp">
+linespacing = 1;
+</syntaxhighlight>
+==== loops ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Defines how many times video will be restarted.
+<syntaxhighlight lang="cpp">
+loops = 0;
+</syntaxhighlight>
+=== O ===
+==== optionDescription ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+optionDescription = "Decreases damage dealt to player and members of his group.";
+</syntaxhighlight>
+==== optionPicture ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+optionPicture = "\A3\Ui_f\data\GUI\Rsc\RscDisplayGameOptions\Diff_ReducedDamage_co.paa";
+</syntaxhighlight>
+=== S ===
+==== shadow ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Type of shadow. Possible values: 0 (no shadow), 1 (shadow), 2 (outline).
+<syntaxhighlight lang="cpp">
+shadow = 1;
+</syntaxhighlight>
+==== sortDown ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+sortDown = "\a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\arrow_down_ca.paa";
+</syntaxhighlight>
+==== sortUp ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+sortUp = "\a3\ui_f\data\gui\rsc\rscdisplaymultiplayer\arrow_up_ca.paa";
+</syntaxhighlight>
+=== T ===
+==== textLoad ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+textLoad = "Open";
+</syntaxhighlight>
+==== textMerge ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+textMerge = "Merge";
+</syntaxhighlight>
+==== textSave ====
+;Type: [[TokenNameValueTypes|String]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+textSave = "Save As";
+</syntaxhighlight>
+==== tileH ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: Height of one tile. Used with ST_TILE_PICTURE to create a repeating wall of pictures, such as the fullscreen backgrounds in the [[Eden Editor]]. Uses [[GUI Coordinates]].
+<syntaxhighlight lang="cpp">
+tileH = 1;
+</syntaxhighlight>
+==== tileW ====
+;Type: [[TokenNameValueTypes|Number]], [[TokenNameValueTypes|String]]
+;Description: Width of one tile. Used with ST_TILE_PICTURE to create a repeating wall of pictures, such as the fullscreen backgrounds in the [[Eden Editor]]. Uses [[GUI Coordinates]].
+<syntaxhighlight lang="cpp">
+tileW = 1;
+</syntaxhighlight>
+=== W ===
+==== widgetLineWidth ====
+;Type: [[TokenNameValueTypes|Number]]
+;Description: Unknown.
+<syntaxhighlight lang="cpp">
+widgetLineWidth = 10;
+</syntaxhighlight>
+{{Cfg ref|end}}
+
+= Default Classes =
+The following classes are part of the export that is generated with <code>"Default" call [[BIS_fnc_exportGUIBaseClasses]]</code>
+{{Informative|In order for the classes below to work you need to have them exported with the function above.}}
+== RscText ==
+[[Image:Dialog controls text.jpg|thumb||''Hello world'' text with semi-transparent background]]
+Most often this type of control will be used to add text to dialogs. If you want the text to change dynamically while playing the mission, you should set the ''idc'' property to a positive number, which allows usage of the [[ctrlSetText]] function. Text alignment can be controlled using the ''style'' property and the <tt>ST_*</tt> constants.
+
+By default, this will only display a '''single line''' (and cut the overflow); use <tt>ST_MULTI</tt> if you intend to use multiple lines. This also requires setting the property ''lineSpacing'', which indicates the relative space between lines; usually, you can set this to 1 for normal line spacing.
+
+<syntaxhighlight lang="cpp">
+class RscText
+{
+	deletable = 0;
+	fade = 0;
+	access = 0;
+	type = CT_STATIC;
+	idc = -1;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,1,1,1};
+	text = "";
+	fixedWidth = 0;
+	x = 0;
+	y = 0;
+	h = 0.037;
+	w = 0.3;
+	style = ST_LEFT;
+	shadow = 1;
+	colorShadow[] = {0,0,0,0.5};
+	font = "RobotoCondensed";
+	SizeEx = GUI_TEXT_SIZE_MEDIUM;
+	linespacing = 1;
+	tooltipColorText[] = {1,1,1,1};
+	tooltipColorBox[] = {1,1,1,1};
+	tooltipColorShade[] = {0,0,0,0.65};
+};
+</syntaxhighlight>
+
+== RscLine ==
+[[Image:Arma RscLine.png|thumb||RscLine control with black background.]]
+Draws a single line from top left to bottom right corner of the control.
+<syntaxhighlight lang="cpp">
+class RscLine: RscText
+{
+	idc = -1;
+	style = ST_MULTI + ST_TITLE_BAR + ST_HUD_BACKGROUND;
+	x = 0.17;
+	y = 0.48;
+	w = 0.66;
+	h = 0;
+	text = "";
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,1,1,1};
+};
+</syntaxhighlight>
+
+== RscFrame ==
+[[Image:Arma RscFrame.png|thumb||Example of a RscFrame in the {{arma3}} server browser.]]
+Frame that outlines the control's borders. When text is set it appears on the top line to the left.
+<syntaxhighlight lang="cpp">
+class RscFrame
+{
+	type = CT_STATIC;
+	idc = -1;
+	deletable = 0;
+	style = ST_FRAME;
+	shadow = 2;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,1,1,1};
+	font = "RobotoCondensed";
+	sizeEx = 0.02;
+	text = "";
+	x = 0;
+	y = 0;
+	w = 0.3;
+	h = 0.3;
+};
+</syntaxhighlight>
+
+== RscPicture ==
+Using specific style constants you can enhance your dialogs with pictures too. These pictures should reside in your mission folder as [[PAA File Format|paa]]-files. Then set your ''style'' property to <tt>ST_PICTURE</tt> (to display it once) or <tt>ST_TILE_PICTURE</tt> (to tile it) and use the ''text'' property to locate the paa image you want to use, relative to your addon or mission folder (''absolute paths should not be used'').
+
+[[Image:Dialog controls picture.jpg|thumb|100px|Dialog control showing a picture]]
+<syntaxhighlight lang="cpp">
+class RscPicture
+{
+	deletable = 0;
+	fade = 0;
+	access = 0;
+	type = CT_STATIC;
+	idc = -1;
+	style = ST_MULTI + ST_TITLE_BAR;
+	colorBackground[] = {0,0,0,0};
+	colorText[] = {1,1,1,1};
+	font = "TahomaB";
+	sizeEx = 0;
+	lineSpacing = 0;
+	text = "";
+	fixedWidth = 0;
+	shadow = 0;
+	x = 0;
+	y = 0;
+	w = 0.2;
+	h = 0.15;
+	tooltipColorText[] = {1,1,1,1};
+	tooltipColorBox[] = {1,1,1,1};
+	tooltipColorShade[] = {0,0,0,0.65};
+};
+</syntaxhighlight>
+
+== RscPictureKeepAspectRatio ==
+Same as RscPicture, but keeps the image the same ratio as in the source file.
+<syntaxhighlight lang="cpp">
+class RscPictureKeepAspect: RscPicture
+{
+	style = ST_MULTI + ST_TITLE_BAR + ST_KEEP_ASPECT_RATIO;
+};
+</syntaxhighlight>
+
+== RscVideo ==
+{{GVI|a2oa|1.56}}
+
+All settings are same as for pictures, only source file must be of ''.OGV'' format. Two additional properties are available - ''autoplay'' (when 1, video starts automatically) and ''loops'' (defines how many times video will be played in loop).
+
+For video encoding, you can use:
+* [http://www.v2v.cc/~j/ffmpeg2theora/download.html ffmpeg2theora]
+* [http://sourceforge.net/projects/theoraconverter/ Theora Converter .NET (GUI for ffmpeg2theora)]
+
+<syntaxhighlight lang="cpp">
+class RscVideo: RscPicture
+{
+	autoplay = 1;
+	loops = 1;
+};
+</syntaxhighlight>
+
+= Other Classes =
+== Static background ==
+[[Image:Dialog controls background.jpg|thumb||Semi-transparent background]]
+One can also use this control type to add solid background to dialogs by simply leaving the ''text'' property empty. This way, it will look like a regular rectangle.
+
+<syntaxhighlight lang="cpp">class MyRedBackgroundExample
+{
+  /* ... same as the text example, except for */
+  colorBackground[] = { 1, 0.1, 0.1, 0.8 };
+  text = "";
+};</syntaxhighlight>
+[[Category: Dialogs]]

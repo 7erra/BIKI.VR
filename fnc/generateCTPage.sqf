@@ -50,7 +50,9 @@ _content = [
 	"=== RscExample ===",
 	"<syntaxhighlight lang=""cpp"">",
 	"//TODO",
-	"</syntaxhighlight>"
+	"</syntaxhighlight>",
+	"",
+	"[[Category: Dialogs]]"
 ];
 
 _content = _content joinString endl;

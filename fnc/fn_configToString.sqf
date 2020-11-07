@@ -1,6 +1,6 @@
 #define SELF BIKI_fnc_configToString
 #define TABCHAR "	"
-params["_cfg", ["_inh", false], ["_tabCount", 0]];
+params["_cfg", ["_inh", false], ["_tabCount", 0], ["_lineBreak", toString[10]]];
 private _props = configProperties[_cfg, "true", _inh];
 private _fncNewLine = {
 	params["_outarr", "_line", "_tcount"];
@@ -24,7 +24,7 @@ _props apply {
 	_linestr = "";
 	switch true do {
 		case isClass _xprop:{
-			_linestr = [_xprop, _inh, _tabCount] call SELF;
+			_linestr = [_xprop, _inh, _tabCount, _lineBreak] call SELF;
 		};
 		case isNumber _xprop:{
 			_linestr = format["%1 = %2;", _xname, getNumber _xprop];
@@ -42,5 +42,5 @@ _props apply {
 };
 _tabCount = _tabCount -1;
 [_outarr, "};", _tabCount] call _fncNewLine;
-_return = _outarr joinString toString[10];
+_return = _outarr joinString _lineBreak;
 _return

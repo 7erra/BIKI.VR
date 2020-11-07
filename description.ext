@@ -55,5 +55,9 @@ class TestDisplay2
 				subtest = 7890;
 			};
 		};
+		class TestControl3: TestControl
+		{
+			test = "anotherstring";
+		};
 	};
 };

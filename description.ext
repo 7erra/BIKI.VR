@@ -11,6 +11,7 @@ class CfgFunctions
 			file = "fnc";
 			class pyUtils;
 			class configToString;
+			class convertCTMacro;
 			/* class collectCtrls;
 			class ctsInConfigFile; */
 		};

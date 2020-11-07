@@ -8,10 +8,15 @@
 	game for a while and not show a loading screen.
 
 	Parameter(s):
-		0	STRING - Macro for the control type, eg. "CT_STATIC"
+		0	STRING/NUMBER - Macro or number of the control type
 	
 	Returns:
 	Nothing. Output is copied to cliboard.
+
+	Examples:
+	[0] execVM "fnc\generateTempalteCT.sqf";
+	// is equal to
+	["CT_STATIC"] execVM "fnc\generateTemplateCT.sqf";
 */
 params ["_ctMacro"];
 startLoadingScreen [""];
@@ -55,7 +60,9 @@ _dictCTs = [
 	["CT_CHECKBOX", CT_CHECKBOX],
 	["CT_VEHICLE_DIRECTION", CT_VEHICLE_DIRECTION]
 ];
-_dictCTs select (_dictCTs findIf {_x#0 == _ctMacro}) params ["", "_ct"];
+if (_ct isEqualType "") then {
+	_ct = _dictCTs select (_dictCTs findIf {_x#0 == _ctMacro}) params ["", "_ct"];
+};
 _controls = [_ct, nil, false] call compile preprocessFileLineNumbers "fnc\fn_collectCtrls.sqf";
 _props = [];
 _exclude = loadFile "dumps\cts\excludeatts.txt" splitString endl apply {toLower _x};

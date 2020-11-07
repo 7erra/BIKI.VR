@@ -41,11 +41,11 @@
 				"-noSplash",
 				"-noSound",
 				"-showScriptErrors",
-				//"-mod=!Workshop\\@3den Enhanced;!Workshop\\@CBA_A3;!Workshop\\@Pythia;!Workshop\\@7erra's Editing Extensions;P:\\@BIKIUtils",
 				"-window",
 				"-posX=-1795",
 				"-posY=146"
-			]
+			],
+			"problemMatcher": []
 		},
 		{
 			"type": "sqf_vm_run",

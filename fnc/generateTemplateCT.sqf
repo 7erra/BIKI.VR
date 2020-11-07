@@ -92,7 +92,7 @@ _dbAttributes = [];
 			_type = "Array";
 		};
 		case isClass(_x):{
-			_value = parseText configName _x;
+			_value = [_x, true] call BIKI_fnc_configToString;
 			_type = "Class";
 		};
 	};
@@ -138,12 +138,12 @@ _bikiText = ([_dbAttributes, []] call BIS_fnc_dbClassList) apply {
 	} forEach _types;
 
 	_value = _values select 0;
-	_value = switch typeName _value do {
-		case typeName []: {
+	_value = switch (_types select 0) do {
+		case "Array": {
 			_value = str _value;
 			"{" + (_value select [1, count _value -2]) + "}";
 		};
-		case typeName "": {
+		case "String": {
 			str _value
 		};
 		default {_value};
@@ -153,7 +153,7 @@ _bikiText = ([_dbAttributes, []] call BIS_fnc_dbClassList) apply {
 	format["|name=%1", _name],
 	format["|value=%1", _value],
 	_typesText joinString endl,
-	"|description=tbd",
+	"|description=",
 	"}}",
 	""] joinString endl
 

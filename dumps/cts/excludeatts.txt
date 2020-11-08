@@ -16,6 +16,7 @@ moving
 Scrollbar
 shadow
 show
+size
 sizeEx
 style
 text

@@ -12,6 +12,7 @@ class CfgFunctions
 			class pyUtils;
 			class configToString;
 			class convertCTMacro;
+			class isTruthy;
 			/* class collectCtrls;
 			class ctsInConfigFile; */
 		};

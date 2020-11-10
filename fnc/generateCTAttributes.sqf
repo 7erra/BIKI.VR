@@ -59,7 +59,7 @@ _dbAttributes = [];
 			_type = "Array";
 		};
 		case isClass(_x):{
-			_value = [_x, true] call BIKI_fnc_configToString;
+			_value = _x;
 			_type = "Class";
 		};
 	};
@@ -72,9 +72,17 @@ _dbAttributes = [];
 		};
 	} else {
 		_types = [_dbAttributes, [_xname, "types"], []] call BIS_fnc_dbValueReturn;
-		if (_types pushBackUnique _type > -1) then {
-			_values = [_dbAttributes, [_xname, "values"], []] call BIS_fnc_dbValueReturn;
+		_values = [_dbAttributes, [_xname, "values"], []] call BIS_fnc_dbValueReturn;
+		if (_types pushBackUnique _type > -1) exitWith {
+			//--- Completely new value
 			_values pushBack _value;
+		};
+		if (
+			!([_values select (_types find _type)] call BIKI_fnc_isTruthy) &&
+			[_value] call BIKI_fnc_isTruthy
+		) exitWith {
+			//--- Update the value with a new one bc the current one has no meaning
+			_values set [_types find _type, _value];
 		};
 	};
 	progressLoadingScreen (_forEachIndex/count(_props));
@@ -87,7 +95,6 @@ _bikiText = ([_dbAttributes, []] call BIS_fnc_dbClassList) apply {
 	private _name = [_dbAttributes, [_x, "name"]] call BIS_fnc_dbValueReturn;
 	private _values = [_dbAttributes, [_x, "values"]] call BIS_fnc_dbValueReturn;
 	private _types = [_dbAttributes, [_x, "types"]] call BIS_fnc_dbValueReturn;
-	diag_log [_name, _values, _types];
 
 	_firstLetter = _name select [0,1];
 	_letterHeader = "";
@@ -108,6 +115,9 @@ _bikiText = ([_dbAttributes, []] call BIS_fnc_dbClassList) apply {
 			};
 			case "String": {
 				str _value
+			};
+			case "Class": {
+				[_value, true] call BIKI_fnc_configToString
 			};
 			default {_value};
 		};

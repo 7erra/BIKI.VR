@@ -36,6 +36,7 @@ _content = [
 	format ["|macro = %1", _ctMacro],
 	format["|value = %1", _ctNumber],
 	"|description = Informative text about this control type.",
+	"|gallery=",
 	"|commands =",
 	"* command group CT",
 	"|events =",

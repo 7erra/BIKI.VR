@@ -30,7 +30,7 @@ if (_ct isEqualType 0) then {
 	_ctMacro = _ct;
 	_ctNumber = [_ct] call BIKI_fnc_convertCTMacro;
 };
-if (_ctNumber == -1 or _ctMacro == "") exitWith {
+if (_ctNumber == -1) exitWith {
 	["[generateCTPage.sqf] No such control type in list: [ %1 | %2 ]", _ctMacro, _ctNumber] call BIS_fnc_error;
 };
 

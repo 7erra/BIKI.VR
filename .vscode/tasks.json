@@ -9,7 +9,7 @@
 			"options": {
 				"cwd": "M:\\SteamLibraryM\\steamapps\\common\\Arma 3"
 			},
-			"command": "arma3diag_x64",
+			"command": "arma3profiling_x64",//arma3profiling_x64 arma3diag_x64
 			"args": [
 				"${workspaceFolder}\\mission.sqm",
 				"-skipIntro",
@@ -21,11 +21,7 @@
 				"-window",
 				"-posX=-1795",
 				"-posY=146"
-			],
-			"group": {
-				"kind": "test",
-				"isDefault": true
-			}
+			]
 		},
 		{
 			"label": "Run Unmodded Arma 3",

@@ -12,7 +12,7 @@ if !(_cts isEqualType []) then {_cts = [_cts]};
 //--- Get all UIs
 private _guiCond = 
 	"isNumber(_x >> 'idd') && "+
-	"(isClass(_x >> 'controls') OR isClass(_x>>'controlsBackground'))"
+	"(isClass(_x >> 'controls') OR isClass(_x>>'controlsBackground') OR isClass(_x>>'objects'))"
 ;
 private _guis = 
 	(_guiCond configClasses (_mainCfg)) +

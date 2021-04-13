@@ -1,6 +1,5 @@
 allowFunctionsRecompile = 1;
 allowFunctionsLog = 1;
-#include "ui\BaseCtrls.hpp"
 
 class CfgFunctions
 {
@@ -23,7 +22,6 @@ class CfgFunctions
 		};
 	};
 };
-#include "ui\test.hpp"
 class ParentTest
 {
 	p[] = {0,0,0,1};
@@ -37,28 +35,11 @@ class TestCfg: ParentTest
 		sub = "yes";
 	};
 };
-class TestDisplay2
+
+#include "\a3\ui_f\hpp\defineCommonGrids.inc"
+#include "UI\BaseControls.hpp"
+class RscTitles
 {
-	idd = -1;
-	class controls
-	{
-		class TestControl
-		{
-			type = 0;
-			test = "test";
-		};
-		class TestControl2: TestControl
-		{
-			test = 1234;
-			stringValue = "blabla";
-			class SubClass
-			{
-				subtest = 7890;
-			};
-		};
-		class TestControl3: TestControl
-		{
-			test = "anotherstring";
-		};
-	};
+	#include "UI\dialog.hpp"
 };
+

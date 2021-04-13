@@ -52,4 +52,3 @@ if (_value isEqualType missionNamespace) exitWith {count allVariables _value > 0
 if (_value isEqualType sideUnknown) exitWith {_value countSide allUnits > 0};
 if (_value isEqualType taskNull) exitWith {!isNull _value and taskState _value in ["Created", "Assigned", "Current"]};
 false
-

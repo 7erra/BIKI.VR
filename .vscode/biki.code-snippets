@@ -1,0 +1,14 @@
+{
+	"syntaxhighlight": {
+		"scope": "mediawiki",
+		"prefix": "syntaxhighlight",
+		"body": "<syntaxhighlight lang=cpp>${1}</syntaxhighlight>",
+		"description": "Opening and closing syntaxhighlight tags."
+	},
+	"inlinecode":{
+		"scope": "mediawiki",
+		"prefix": "inlinecode",
+		"body": "{{ic|${1:CODE}}}",
+		"description": "Inline code template."
+	}
+}

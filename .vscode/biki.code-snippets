@@ -2,7 +2,7 @@
 	"syntaxhighlight": {
 		"scope": "mediawiki",
 		"prefix": "syntaxhighlight",
-		"body": "<syntaxhighlight lang=cpp>${1}</syntaxhighlight>",
+		"body": "<syntaxhighlight lang=\"cpp\">${1}</syntaxhighlight>",
 		"description": "Opening and closing syntaxhighlight tags."
 	},
 	"inlinecode":{
